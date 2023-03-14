@@ -1,0 +1,7 @@
+sehr gutes training mit 1233 parametern (13.03.2023, 15 Uhr)
+
+batch_size = 50
+dense_layers = [5000]
+latent_dim = 100
+epochs = 50
+learning_rate= 0.001

@@ -1,0 +1,236 @@
+Attacky.fxp
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?><patch revision="9"><meta name="Attacky" category="Bass" comment="" author="Claes" /> 
+
+
+Bass 1.fxp
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?><patch revision="9"><meta name="Bass one" category="Bass" comment="" author="Claes" /> 
+
+
+Bass 2.fxp
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?><patch revision="20"><meta name="Bass two" category="Bass" comment="" author="Claes"><tags /> 
+</meta>
+
+Bass 3.fxp
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?><patch revision="9"><meta name="Bass three" category="Bass" comment="" author="Claes" /> 
+
+
+Bass 4.fxp
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?><patch revision="10"><meta name="Bass four" category="Bass" comment="" author="Claes" /> 
+
+
+Bass 5.fxp
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?><patch revision="20"><meta name="Bass 10" category="Bass" comment="" author="Claes"><tags /> 
+</meta>
+
+Behemoth.fxp
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?><patch revision="20"><meta name="Behemoth" category="Bass" comment="" author="Claes"><tags /> 
+</meta>
+
+Crush Bass.fxp
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?><patch revision="9"><meta name="Crush bass" category="Bass" comment="" author="Claes" /> 
+
+
+Deep End.fxp
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?><patch revision="20"><meta name="Deep end" category="Bass" comment="" author="Claes"><tags /> 
+</meta>
+
+Digibass.fxp
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?><patch revision="20"><meta name="Digibass" category="Bass" comment="" author="Claes"><tags /> 
+</meta>
+
+Dist Bass 1.fxp
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?><patch revision="20"><meta name="Distbass" category="Monosynth (hard)" comment="" author="Claes"><tags /> 
+</meta>
+
+Dist Bass 2.fxp
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?><patch revision="20"><meta name="Distbass 2" category="Monosynth (hard)" comment="" author="Claes"><tags /> 
+</meta>
+
+Distorted Bass.fxp
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?><patch revision="20"><meta name="Distorted bass 01" category="Bass" comment="" author="Claes"><tags /> 
+</meta>
+
+Distorted FM.fxp
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?><patch revision="20"><meta name="Distorted FM" category="Bass" comment="" author="Claes"><tags /> 
+</meta>
+
+Distorted MW.fxp
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?><patch revision="9"><meta name="Distorted MW" category="Bass" comment="" author="Claes" /> 
+
+
+Doomsday.fxp
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?><patch revision="20"><meta name="Doomsday" category="Bass" comment="" author="Claes"><tags /> 
+</meta>
+
+E-Bass.fxp
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?><patch revision="20"><meta name="E Bass" category="Bass" comment="" author="Claes"><tags /> 
+</meta>
+
+Eighties Drone.fxp
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?><patch revision="20"><meta name="Eighties Drone" category="Bass" comment="" author="Claes"><tags /> 
+</meta>
+
+Evilous.fxp
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?><patch revision="20"><meta name="Evilous" category="Bass" comment="" author="Claes"><tags /> 
+</meta>
+
+Fingered.fxp
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?><patch revision="9"><meta name="Fingered" category="Bass" comment="" author="Claes" /> 
+
+
+FM Bass 1.fxp
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?><patch revision="20"><meta name="FM bass 1" category="Bass" comment="" author="Claes"><tags /> 
+</meta>
+
+FM Bass 2.fxp
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?><patch revision="20"><meta name="FM bass 2" category="Bass" comment="" author="Claes"><tags /> 
+</meta>
+
+FM Bass 3.fxp
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?><patch revision="20"><meta name="FM bass 3" category="Bass" comment="" author="Claes"><tags /> 
+</meta>
+
+FM Bass 4.fxp
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?><patch revision="9"><meta name="FM bass 4" category="Bass" comment="" author="Claes" /> 
+
+
+FM Bass 5.fxp
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?><patch revision="20"><meta name="FM bass 5" category="Bass" comment="" author="Claes"><tags /> 
+</meta>
+
+FM Bass 6.fxp
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?><patch revision="9"><meta name="FM bass 6" category="Bass" comment="" author="Claes" /> 
+
+
+FM Combo.fxp
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?><patch revision="20"><meta name="FM combo" category="Bass" comment="" author="Claes"><tags /> 
+</meta>
+
+FM Slap.fxp
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?><patch revision="9"><meta name="FM Slap 1" category="Bass" comment="" author="Claes" /> 
+
+
+Helmeto.fxp
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?><patch revision="9"><meta name="Helmeto" category="Bass" comment="" author="Claes" /> 
+
+
+Lord Sawtooth.fxp
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?><patch revision="20"><meta name="Lord Sawtooth" category="Bass" comment="" author="Claes"><tags /> 
+</meta>
+
+Mellow.fxp
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?><patch revision="20"><meta name="Mellow" category="Bass" comment="" author="Claes"><tags /> 
+</meta>
+
+Metal Square.fxp
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?><patch revision="9"><meta name="Metalsquare" category="Bass" comment="" author="Claes" /> 
+
+
+Mmm... Pointy!.fxp
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?><patch revision="9"><meta name="Mmm.. pointy" category="Bass" comment="" author="Claes" /> 
+
+
+Piano Bass.fxp
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?><patch revision="9"><meta name="Pianobass" category="Bass" comment="" author="Claes" /> 
+
+
+Plain.fxp
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?><patch revision="20"><meta name="Plain" category="Bass" comment="" author="Claes"><tags /> 
+</meta>
+
+Ring Mayhem.fxp
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?><patch revision="9"><meta name="Ring mayhem" category="Bass" comment="" author="Claes" /> 
+
+
+Rubber Bass.fxp
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?><patch revision="20"><meta name="Rubber bass" category="Bass" comment="" author="Claes"><tags /> 
+</meta>
+
+Rumble.fxp
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?><patch revision="9"><meta name="Rumble" category="Bass" comment="" author="Claes" /> 
+
+
+Saw Lo-Fi.fxp
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?><patch revision="20"><meta name="Saw Lofi" category="Bass" comment="" author="Claes"><tags /> 
+</meta>
+
+Schnell.fxp
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?><patch revision="9"><meta name="Schnell" category="Bass" comment="" author="Claes" /> 
+
+
+Slow.fxp
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?><patch revision="20"><meta name="Slow" category="Bass" comment="" author="Claes"><tags /> 
+</meta>
+
+Smoothie.fxp
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?><patch revision="20"><meta name="Smootie" category="Bass" comment="" author="Claes"><tags /> 
+</meta>
+
+Square Bass.fxp
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?><patch revision="16"><meta name="Square Bass" category="Basses" comment="" author="Claes" /> 
+
+
+Squared.fxp
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?><patch revision="20"><meta name="Squared" category="Bass" comment="" author="Claes"><tags /> 
+</meta>
+
+Stable.fxp
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?><patch revision="20"><meta name="Stable" category="Bass" comment="" author="Claes"><tags /> 
+</meta>
+
+Static 1.fxp
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?><patch revision="20"><meta name="Static 1" category="Bass" comment="" author="Claes"><tags /> 
+</meta>
+
+Static 2.fxp
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?><patch revision="20"><meta name="Static 2" category="Bass" comment="" author="Claes"><tags /> 
+</meta>
+
+Stone.fxp
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?><patch revision="9"><meta name="Stone" category="Bass" comment="" author="Claes" /> 
+
+
+Sub 1.fxp
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?><patch revision="9"><meta name="Sub 1" category="Bass" comment="" author="Claes" /> 
+
+
+Sub 2.fxp
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?><patch revision="9"><meta name="Sub 2" category="Bass" comment="" author="Claes" /> 
+
+
+Sub 3.fxp
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?><patch revision="20"><meta name="Sub 3" category="Bass" comment="" author="Claes"><tags /> 
+</meta>
+
+Sub 4.fxp
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?><patch revision="20"><meta name="Sub 4" category="Bass" comment="" author="Claes"><tags /> 
+</meta>
+
+Sub Square.fxp
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?><patch revision="9"><meta name="Sub Square 1" category="Bass" comment="" author="Claes" /> 
+
+
+Tacky 1.fxp
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?><patch revision="20"><meta name="Tacky 1" category="Bass" comment="" author="Claes"><tags /> 
+</meta>
+
+Tacky 2.fxp
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?><patch revision="20"><meta name="Tacky 2" category="Bass" comment="" author="Claes"><tags /> 
+</meta>
+
+Theme.fxp
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?><patch revision="9"><meta name="Theme" category="Bass" comment="" author="Claes" /> 
+
+
+Wide Bassline.fxp
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?><patch revision="20"><meta name="Bassline (wide)" category="Monosynth (hard)" comment="" author="Claes"><tags /> 
+</meta>
+
+Width.fxp
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?><patch revision="20"><meta name="Width" category="Monosynth" comment="" author="Claes"><tags /> 
+</meta>
+
+WT Bass.fxp
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?><patch revision="20"><meta name="WTbass" category="Bass" comment="" author="Claes"><tags /> 
+</meta>
+

@@ -1,0 +1,74 @@
+number of parameter sets in dataset: 2863 
+
+max number of parameters in one set: 778 
+
+min number of parameters in one set: 548 
+
+total number of different parameters used over all sets/patches: 1233 
+
+all keys used over all parameters: 
+ mod_source_2
+ mod_source_8
+ mod_depth_1
+ mod_depth_2
+ mod_depth_3
+ mod_source_scene_1
+ mod_source_index_5
+ mod_muted_1
+ mod_muted_7
+ mod_source_index_3
+ mod_source_scene_3
+ deactivated
+ mod_source_1
+ mod_depth_10
+ mod_source_index_2
+ mod_source_5
+ deform_type
+ extend_range
+ mod_source_4
+ mod_muted_5
+ mod_muted_6
+ mod_source_index_6
+ mod_source_index_10
+ mod_muted_2
+ porta_const_rate
+ mod_source_3
+ mod_depth_4
+ mod_muted_9
+ mod_source_index_1
+ mod_muted_3
+ mod_source_index_7
+ label
+ force_integer
+ mod_source_index_8
+ mod_source_10
+ mod_muted_8
+ value
+ mod_source_scene_2
+ porta_retrigger
+ mod_muted_4
+ mod_source_6
+ mod_source_7
+ porta_curve
+ mod_muted_10
+ mod_source_9
+ mod_source_index_4
+ mod_source_index_9
+ mod_depth_5
+ porta_gliss
+ mod_depth_8
+ temposync
+ mod_depth_9
+ absolute
+ mod_depth_6
+ value_type
+ mod_depth_7
+
+total number of different keys used over all parameters: 56 
+
+max number of keys in one parameter: 44 in: Lead 10, a_osc1_param0 
+
+number of presets which contain only parameters with only label, type, value: 20 
+
+number of parameters which have more keys than label, value, type: 340066 
+

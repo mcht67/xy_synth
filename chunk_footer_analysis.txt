@@ -1,0 +1,1392 @@
+Attacky.fxp
+<stepsequences /> 
+<customcontroller><entry i="0" bipolar="0" v="0.000000" label="-" /> 
+<entry i="1" bipolar="0" v="0.000000" label="-" /> 
+<entry i="2" bipolar="0" v="0.000000" label="-" /> 
+<entry i="3" bipolar="0" v="0.000000" label="-" /> 
+<entry i="4" bipolar="0" v="0.000000" label="-" /> 
+<entry i="5" bipolar="0" v="0.000000" label="-" /> 
+<entry i="6" bipolar="0" v="0.000000" label="-" /> 
+<entry i="7" bipolar="0" v="0.000000" label="-" /> 
+</customcontroller><modwheel s0="0.000000" s1="0.000000" /> 
+</patch>
+
+Bass 1.fxp
+<stepsequences /> 
+<customcontroller><entry i="0" bipolar="0" v="0.000000" label="-" /> 
+<entry i="1" bipolar="0" v="0.000000" label="-" /> 
+<entry i="2" bipolar="0" v="0.000000" label="-" /> 
+<entry i="3" bipolar="0" v="0.000000" label="-" /> 
+<entry i="4" bipolar="0" v="0.000000" label="-" /> 
+<entry i="5" bipolar="0" v="0.000000" label="-" /> 
+<entry i="6" bipolar="0" v="0.000000" label="-" /> 
+<entry i="7" bipolar="0" v="0.000000" label="-" /> 
+</customcontroller><modwheel s0="0.000000" s1="0.000000" /> 
+</patch>
+
+Bass 2.fxp
+<nonparamconfig><monoVoicePrority_0 v="0" /> 
+<monoVoicePrority_1 v="0" /> 
+<monoVoiceEnvelope_0 v="1" /> 
+<monoVoiceEnvelope_1 v="0" /> 
+<hardclipmodes global="1" sc0="1" sc1="1" /> 
+<tuningApplicationMode v="0" /> 
+</nonparamconfig><extraoscdata><osc_extra_sc0_osc0 scene="0" osc="0" extra_n="0" /> 
+<osc_extra_sc0_osc1 scene="0" osc="1" extra_n="0" /> 
+<osc_extra_sc0_osc2 scene="0" osc="2" extra_n="0" /> 
+<osc_extra_sc1_osc0 scene="1" osc="0" extra_n="0" /> 
+<osc_extra_sc1_osc1 scene="1" osc="1" extra_n="0" /> 
+<osc_extra_sc1_osc2 scene="1" osc="2" extra_n="0" /> 
+</extraoscdata><stepsequences /> 
+<msegs /> 
+<formulae /> 
+<customcontroller><entry i="0" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="1" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="2" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="3" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="4" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="5" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="6" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="7" bipolar="0" v="0.00000000000000" label="-" /> 
+</customcontroller><lfobanklabels /> 
+<modwheel s0="0.000000" s1="0.000000" /> 
+<compatability><correctlyTunedCombFilter v="1" /> 
+</compatability><dawExtraState populated="0" /> 
+</patch>
+
+Bass 3.fxp
+<stepsequences /> 
+<customcontroller><entry i="0" bipolar="0" v="0.000000" label="Cutoff" /> 
+<entry i="1" bipolar="0" v="0.000000" label="Resonance" /> 
+<entry i="2" bipolar="0" v="0.000000" label="-" /> 
+<entry i="3" bipolar="0" v="0.000000" label="-" /> 
+<entry i="4" bipolar="0" v="0.000000" label="-" /> 
+<entry i="5" bipolar="0" v="0.000000" label="-" /> 
+<entry i="6" bipolar="0" v="0.000000" label="-" /> 
+<entry i="7" bipolar="0" v="0.000000" label="-" /> 
+</customcontroller><modwheel s0="0.000000" s1="0.000000" /> 
+</patch>
+
+Bass 4.fxp
+<stepsequences /> 
+<customcontroller><entry i="0" bipolar="1" v="0.000000" label="Cutoff" /> 
+<entry i="1" bipolar="1" v="-0.439999" label="Osc Mix" /> 
+<entry i="2" bipolar="0" v="0.000000" label="Sync" /> 
+<entry i="3" bipolar="0" v="0.000000" label="PEG" /> 
+<entry i="4" bipolar="0" v="0.000000" label="Sub Level" /> 
+<entry i="5" bipolar="0" v="0.000000" label="Sub Width" /> 
+<entry i="6" bipolar="0" v="0.000000" label="-" /> 
+<entry i="7" bipolar="0" v="0.000000" label="-" /> 
+</customcontroller><modwheel s0="0.000000" s1="0.000000" /> 
+</patch>
+
+Bass 5.fxp
+<nonparamconfig><monoVoicePrority_0 v="0" /> 
+<monoVoicePrority_1 v="0" /> 
+<monoVoiceEnvelope_0 v="1" /> 
+<monoVoiceEnvelope_1 v="0" /> 
+<hardclipmodes global="1" sc0="1" sc1="1" /> 
+<tuningApplicationMode v="0" /> 
+</nonparamconfig><extraoscdata><osc_extra_sc0_osc0 scene="0" osc="0" wavetable_display_name="(Patch Wavetable)" wavetable_formula="" wavetable_formula_nframes="10" wavetable_formula_res_base="5" extra_n="0" /> 
+<osc_extra_sc0_osc1 scene="0" osc="1" extra_n="0" /> 
+<osc_extra_sc0_osc2 scene="0" osc="2" extra_n="0" /> 
+<osc_extra_sc1_osc0 scene="1" osc="0" extra_n="0" /> 
+<osc_extra_sc1_osc1 scene="1" osc="1" extra_n="0" /> 
+<osc_extra_sc1_osc2 scene="1" osc="2" extra_n="0" /> 
+</extraoscdata><stepsequences /> 
+<msegs /> 
+<formulae /> 
+<customcontroller><entry i="0" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="1" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="2" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="3" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="4" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="5" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="6" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="7" bipolar="0" v="0.00000000000000" label="-" /> 
+</customcontroller><lfobanklabels /> 
+<modwheel s0="0.000000" s1="0.000000" /> 
+<compatability><correctlyTunedCombFilter v="1" /> 
+</compatability><dawExtraState populated="0" /> 
+</patch>
+
+Behemoth.fxp
+<nonparamconfig><monoVoicePrority_0 v="0" /> 
+<monoVoicePrority_1 v="0" /> 
+<monoVoiceEnvelope_0 v="1" /> 
+<monoVoiceEnvelope_1 v="0" /> 
+<hardclipmodes global="1" sc0="1" sc1="1" /> 
+<tuningApplicationMode v="0" /> 
+</nonparamconfig><extraoscdata><osc_extra_sc0_osc0 scene="0" osc="0" extra_n="0" /> 
+<osc_extra_sc0_osc1 scene="0" osc="1" extra_n="0" /> 
+<osc_extra_sc0_osc2 scene="0" osc="2" extra_n="0" /> 
+<osc_extra_sc1_osc0 scene="1" osc="0" extra_n="0" /> 
+<osc_extra_sc1_osc1 scene="1" osc="1" extra_n="0" /> 
+<osc_extra_sc1_osc2 scene="1" osc="2" extra_n="0" /> 
+</extraoscdata><stepsequences /> 
+<msegs /> 
+<formulae /> 
+<customcontroller><entry i="0" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="1" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="2" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="3" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="4" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="5" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="6" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="7" bipolar="0" v="0.00000000000000" label="-" /> 
+</customcontroller><lfobanklabels /> 
+<modwheel s0="0.000000" s1="0.000000" /> 
+<compatability><correctlyTunedCombFilter v="1" /> 
+</compatability><dawExtraState populated="0" /> 
+</patch>
+
+Crush Bass.fxp
+<stepsequences /> 
+<customcontroller><entry i="0" bipolar="0" v="0.000000" label="-" /> 
+<entry i="1" bipolar="0" v="0.000000" label="-" /> 
+<entry i="2" bipolar="0" v="0.000000" label="-" /> 
+<entry i="3" bipolar="0" v="0.000000" label="-" /> 
+<entry i="4" bipolar="0" v="0.000000" label="-" /> 
+<entry i="5" bipolar="0" v="0.000000" label="-" /> 
+<entry i="6" bipolar="0" v="0.000000" label="-" /> 
+<entry i="7" bipolar="0" v="0.000000" label="-" /> 
+</customcontroller><modwheel s0="0.000000" s1="0.000000" /> 
+</patch>
+
+Deep End.fxp
+<nonparamconfig><monoVoicePrority_0 v="0" /> 
+<monoVoicePrority_1 v="0" /> 
+<monoVoiceEnvelope_0 v="1" /> 
+<monoVoiceEnvelope_1 v="0" /> 
+<hardclipmodes global="1" sc0="1" sc1="1" /> 
+<tuningApplicationMode v="0" /> 
+</nonparamconfig><extraoscdata><osc_extra_sc0_osc0 scene="0" osc="0" extra_n="0" /> 
+<osc_extra_sc0_osc1 scene="0" osc="1" extra_n="0" /> 
+<osc_extra_sc0_osc2 scene="0" osc="2" extra_n="0" /> 
+<osc_extra_sc1_osc0 scene="1" osc="0" extra_n="0" /> 
+<osc_extra_sc1_osc1 scene="1" osc="1" extra_n="0" /> 
+<osc_extra_sc1_osc2 scene="1" osc="2" extra_n="0" /> 
+</extraoscdata><stepsequences /> 
+<msegs /> 
+<formulae /> 
+<customcontroller><entry i="0" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="1" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="2" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="3" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="4" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="5" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="6" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="7" bipolar="0" v="0.00000000000000" label="-" /> 
+</customcontroller><lfobanklabels /> 
+<modwheel s0="0.000000" s1="0.000000" /> 
+<compatability><correctlyTunedCombFilter v="1" /> 
+</compatability><dawExtraState populated="0" /> 
+</patch>
+
+Digibass.fxp
+<nonparamconfig><monoVoicePrority_0 v="0" /> 
+<monoVoicePrority_1 v="0" /> 
+<monoVoiceEnvelope_0 v="1" /> 
+<monoVoiceEnvelope_1 v="0" /> 
+<hardclipmodes global="1" sc0="1" sc1="1" /> 
+<tuningApplicationMode v="0" /> 
+</nonparamconfig><extraoscdata><osc_extra_sc0_osc0 scene="0" osc="0" wavetable_display_name="(Patch Wavetable)" wavetable_formula="" wavetable_formula_nframes="10" wavetable_formula_res_base="5" extra_n="0" /> 
+<osc_extra_sc0_osc1 scene="0" osc="1" extra_n="0" /> 
+<osc_extra_sc0_osc2 scene="0" osc="2" extra_n="0" /> 
+<osc_extra_sc1_osc0 scene="1" osc="0" extra_n="0" /> 
+<osc_extra_sc1_osc1 scene="1" osc="1" extra_n="0" /> 
+<osc_extra_sc1_osc2 scene="1" osc="2" extra_n="0" /> 
+</extraoscdata><stepsequences /> 
+<msegs /> 
+<formulae /> 
+<customcontroller><entry i="0" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="1" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="2" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="3" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="4" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="5" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="6" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="7" bipolar="0" v="0.00000000000000" label="-" /> 
+</customcontroller><lfobanklabels /> 
+<modwheel s0="0.000000" s1="0.000000" /> 
+<compatability><correctlyTunedCombFilter v="1" /> 
+</compatability><dawExtraState populated="0" /> 
+</patch>
+
+Dist Bass 1.fxp
+<nonparamconfig><monoVoicePrority_0 v="0" /> 
+<monoVoicePrority_1 v="0" /> 
+<monoVoiceEnvelope_0 v="1" /> 
+<monoVoiceEnvelope_1 v="0" /> 
+<hardclipmodes global="1" sc0="1" sc1="1" /> 
+<tuningApplicationMode v="0" /> 
+</nonparamconfig><extraoscdata><osc_extra_sc0_osc0 scene="0" osc="0" extra_n="0" /> 
+<osc_extra_sc0_osc1 scene="0" osc="1" extra_n="0" /> 
+<osc_extra_sc0_osc2 scene="0" osc="2" extra_n="0" /> 
+<osc_extra_sc1_osc0 scene="1" osc="0" extra_n="0" /> 
+<osc_extra_sc1_osc1 scene="1" osc="1" extra_n="0" /> 
+<osc_extra_sc1_osc2 scene="1" osc="2" extra_n="0" /> 
+</extraoscdata><stepsequences /> 
+<msegs /> 
+<formulae /> 
+<customcontroller><entry i="0" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="1" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="2" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="3" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="4" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="5" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="6" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="7" bipolar="0" v="0.00000000000000" label="-" /> 
+</customcontroller><lfobanklabels /> 
+<modwheel s0="0.000000" s1="0.000000" /> 
+<compatability><correctlyTunedCombFilter v="1" /> 
+</compatability><dawExtraState populated="0" /> 
+</patch>
+
+Dist Bass 2.fxp
+<nonparamconfig><monoVoicePrority_0 v="0" /> 
+<monoVoicePrority_1 v="0" /> 
+<monoVoiceEnvelope_0 v="1" /> 
+<monoVoiceEnvelope_1 v="0" /> 
+<hardclipmodes global="1" sc0="1" sc1="1" /> 
+<tuningApplicationMode v="0" /> 
+</nonparamconfig><extraoscdata><osc_extra_sc0_osc0 scene="0" osc="0" extra_n="0" /> 
+<osc_extra_sc0_osc1 scene="0" osc="1" extra_n="0" /> 
+<osc_extra_sc0_osc2 scene="0" osc="2" extra_n="0" /> 
+<osc_extra_sc1_osc0 scene="1" osc="0" extra_n="0" /> 
+<osc_extra_sc1_osc1 scene="1" osc="1" extra_n="0" /> 
+<osc_extra_sc1_osc2 scene="1" osc="2" extra_n="0" /> 
+</extraoscdata><stepsequences /> 
+<msegs /> 
+<formulae /> 
+<customcontroller><entry i="0" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="1" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="2" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="3" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="4" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="5" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="6" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="7" bipolar="0" v="0.00000000000000" label="-" /> 
+</customcontroller><lfobanklabels /> 
+<modwheel s0="0.000000" s1="0.000000" /> 
+<compatability><correctlyTunedCombFilter v="1" /> 
+</compatability><dawExtraState populated="0" /> 
+</patch>
+
+Distorted Bass.fxp
+<nonparamconfig><monoVoicePrority_0 v="0" /> 
+<monoVoicePrority_1 v="0" /> 
+<monoVoiceEnvelope_0 v="1" /> 
+<monoVoiceEnvelope_1 v="0" /> 
+<hardclipmodes global="1" sc0="1" sc1="1" /> 
+<tuningApplicationMode v="0" /> 
+</nonparamconfig><extraoscdata><osc_extra_sc0_osc0 scene="0" osc="0" extra_n="0" /> 
+<osc_extra_sc0_osc1 scene="0" osc="1" extra_n="0" /> 
+<osc_extra_sc0_osc2 scene="0" osc="2" extra_n="0" /> 
+<osc_extra_sc1_osc0 scene="1" osc="0" extra_n="0" /> 
+<osc_extra_sc1_osc1 scene="1" osc="1" extra_n="0" /> 
+<osc_extra_sc1_osc2 scene="1" osc="2" extra_n="0" /> 
+</extraoscdata><stepsequences /> 
+<msegs /> 
+<formulae /> 
+<customcontroller><entry i="0" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="1" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="2" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="3" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="4" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="5" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="6" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="7" bipolar="0" v="0.00000000000000" label="-" /> 
+</customcontroller><lfobanklabels /> 
+<modwheel s0="0.000000" s1="0.000000" /> 
+<compatability><correctlyTunedCombFilter v="1" /> 
+</compatability><dawExtraState populated="0" /> 
+</patch>
+
+Distorted FM.fxp
+<nonparamconfig><monoVoicePrority_0 v="0" /> 
+<monoVoicePrority_1 v="0" /> 
+<monoVoiceEnvelope_0 v="1" /> 
+<monoVoiceEnvelope_1 v="0" /> 
+<hardclipmodes global="1" sc0="1" sc1="1" /> 
+<tuningApplicationMode v="0" /> 
+</nonparamconfig><extraoscdata><osc_extra_sc0_osc0 scene="0" osc="0" extra_n="0" /> 
+<osc_extra_sc0_osc1 scene="0" osc="1" extra_n="0" /> 
+<osc_extra_sc0_osc2 scene="0" osc="2" extra_n="0" /> 
+<osc_extra_sc1_osc0 scene="1" osc="0" extra_n="0" /> 
+<osc_extra_sc1_osc1 scene="1" osc="1" extra_n="0" /> 
+<osc_extra_sc1_osc2 scene="1" osc="2" extra_n="0" /> 
+</extraoscdata><stepsequences /> 
+<msegs /> 
+<formulae /> 
+<customcontroller><entry i="0" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="1" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="2" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="3" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="4" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="5" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="6" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="7" bipolar="0" v="0.00000000000000" label="-" /> 
+</customcontroller><lfobanklabels /> 
+<modwheel s0="0.000000" s1="0.000000" /> 
+<compatability><correctlyTunedCombFilter v="1" /> 
+</compatability><dawExtraState populated="0" /> 
+</patch>
+
+Distorted MW.fxp
+<stepsequences /> 
+<customcontroller><entry i="0" bipolar="1" v="-0.010001" label="Decay" /> 
+<entry i="1" bipolar="0" v="0.350001" label="Sustain" /> 
+<entry i="2" bipolar="0" v="0.000000" label="Uni Spread" /> 
+<entry i="3" bipolar="0" v="0.000000" label="Shape" /> 
+<entry i="4" bipolar="0" v="0.000000" label="-" /> 
+<entry i="5" bipolar="0" v="0.000000" label="-" /> 
+<entry i="6" bipolar="0" v="0.000000" label="-" /> 
+<entry i="7" bipolar="0" v="0.000000" label="-" /> 
+</customcontroller><modwheel s0="1.000000" s1="1.000000" /> 
+</patch>
+
+Doomsday.fxp
+<nonparamconfig><monoVoicePrority_0 v="0" /> 
+<monoVoicePrority_1 v="0" /> 
+<monoVoiceEnvelope_0 v="1" /> 
+<monoVoiceEnvelope_1 v="0" /> 
+<hardclipmodes global="1" sc0="1" sc1="1" /> 
+<tuningApplicationMode v="0" /> 
+</nonparamconfig><extraoscdata><osc_extra_sc0_osc0 scene="0" osc="0" wavetable_display_name="(Patch Sample)" wavetable_formula="" wavetable_formula_nframes="10" wavetable_formula_res_base="5" extra_n="0" /> 
+<osc_extra_sc0_osc1 scene="0" osc="1" extra_n="0" /> 
+<osc_extra_sc0_osc2 scene="0" osc="2" extra_n="0" /> 
+<osc_extra_sc1_osc0 scene="1" osc="0" extra_n="0" /> 
+<osc_extra_sc1_osc1 scene="1" osc="1" extra_n="0" /> 
+<osc_extra_sc1_osc2 scene="1" osc="2" extra_n="0" /> 
+</extraoscdata><stepsequences /> 
+<msegs /> 
+<formulae /> 
+<customcontroller><entry i="0" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="1" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="2" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="3" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="4" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="5" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="6" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="7" bipolar="0" v="0.00000000000000" label="-" /> 
+</customcontroller><lfobanklabels /> 
+<modwheel s0="0.000000" s1="0.000000" /> 
+<compatability><correctlyTunedCombFilter v="1" /> 
+</compatability><dawExtraState populated="0" /> 
+</patch>
+
+E-Bass.fxp
+<nonparamconfig><monoVoicePrority_0 v="0" /> 
+<monoVoicePrority_1 v="0" /> 
+<monoVoiceEnvelope_0 v="1" /> 
+<monoVoiceEnvelope_1 v="0" /> 
+<hardclipmodes global="1" sc0="1" sc1="1" /> 
+<tuningApplicationMode v="0" /> 
+</nonparamconfig><extraoscdata><osc_extra_sc0_osc0 scene="0" osc="0" wavetable_display_name="(Patch Wavetable)" wavetable_formula="" wavetable_formula_nframes="10" wavetable_formula_res_base="5" extra_n="0" /> 
+<osc_extra_sc0_osc1 scene="0" osc="1" extra_n="0" /> 
+<osc_extra_sc0_osc2 scene="0" osc="2" extra_n="0" /> 
+<osc_extra_sc1_osc0 scene="1" osc="0" extra_n="0" /> 
+<osc_extra_sc1_osc1 scene="1" osc="1" extra_n="0" /> 
+<osc_extra_sc1_osc2 scene="1" osc="2" extra_n="0" /> 
+</extraoscdata><stepsequences /> 
+<msegs /> 
+<formulae /> 
+<customcontroller><entry i="0" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="1" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="2" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="3" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="4" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="5" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="6" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="7" bipolar="0" v="0.00000000000000" label="-" /> 
+</customcontroller><lfobanklabels /> 
+<modwheel s0="0.000000" s1="0.000000" /> 
+<compatability><correctlyTunedCombFilter v="1" /> 
+</compatability><dawExtraState populated="0" /> 
+</patch>
+
+Eighties Drone.fxp
+<nonparamconfig><monoVoicePrority_0 v="0" /> 
+<monoVoicePrority_1 v="0" /> 
+<monoVoiceEnvelope_0 v="1" /> 
+<monoVoiceEnvelope_1 v="0" /> 
+<hardclipmodes global="1" sc0="1" sc1="1" /> 
+<tuningApplicationMode v="0" /> 
+</nonparamconfig><extraoscdata><osc_extra_sc0_osc0 scene="0" osc="0" extra_n="0" /> 
+<osc_extra_sc0_osc1 scene="0" osc="1" extra_n="0" /> 
+<osc_extra_sc0_osc2 scene="0" osc="2" extra_n="0" /> 
+<osc_extra_sc1_osc0 scene="1" osc="0" extra_n="0" /> 
+<osc_extra_sc1_osc1 scene="1" osc="1" extra_n="0" /> 
+<osc_extra_sc1_osc2 scene="1" osc="2" extra_n="0" /> 
+</extraoscdata><stepsequences /> 
+<msegs /> 
+<formulae /> 
+<customcontroller><entry i="0" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="1" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="2" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="3" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="4" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="5" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="6" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="7" bipolar="0" v="0.00000000000000" label="-" /> 
+</customcontroller><lfobanklabels /> 
+<modwheel s0="0.000000" s1="0.000000" /> 
+<compatability><correctlyTunedCombFilter v="1" /> 
+</compatability><dawExtraState populated="0" /> 
+</patch>
+
+Evilous.fxp
+<nonparamconfig><monoVoicePrority_0 v="0" /> 
+<monoVoicePrority_1 v="0" /> 
+<monoVoiceEnvelope_0 v="1" /> 
+<monoVoiceEnvelope_1 v="0" /> 
+<hardclipmodes global="1" sc0="1" sc1="1" /> 
+<tuningApplicationMode v="0" /> 
+</nonparamconfig><extraoscdata><osc_extra_sc0_osc0 scene="0" osc="0" extra_n="0" /> 
+<osc_extra_sc0_osc1 scene="0" osc="1" extra_n="0" /> 
+<osc_extra_sc0_osc2 scene="0" osc="2" extra_n="0" /> 
+<osc_extra_sc1_osc0 scene="1" osc="0" extra_n="0" /> 
+<osc_extra_sc1_osc1 scene="1" osc="1" extra_n="0" /> 
+<osc_extra_sc1_osc2 scene="1" osc="2" extra_n="0" /> 
+</extraoscdata><stepsequences /> 
+<msegs /> 
+<formulae /> 
+<customcontroller><entry i="0" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="1" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="2" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="3" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="4" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="5" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="6" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="7" bipolar="0" v="0.00000000000000" label="-" /> 
+</customcontroller><lfobanklabels /> 
+<modwheel s0="0.000000" s1="0.000000" /> 
+<compatability><correctlyTunedCombFilter v="1" /> 
+</compatability><dawExtraState populated="0" /> 
+</patch>
+
+Fingered.fxp
+<stepsequences /> 
+<customcontroller><entry i="0" bipolar="0" v="0.000000" label="-" /> 
+<entry i="1" bipolar="0" v="0.000000" label="-" /> 
+<entry i="2" bipolar="0" v="0.000000" label="-" /> 
+<entry i="3" bipolar="0" v="0.000000" label="-" /> 
+<entry i="4" bipolar="0" v="0.000000" label="-" /> 
+<entry i="5" bipolar="0" v="0.000000" label="-" /> 
+<entry i="6" bipolar="0" v="0.000000" label="-" /> 
+<entry i="7" bipolar="0" v="0.000000" label="-" /> 
+</customcontroller><modwheel s0="0.000000" s1="0.000000" /> 
+</patch>
+
+FM Bass 1.fxp
+<nonparamconfig><monoVoicePrority_0 v="0" /> 
+<monoVoicePrority_1 v="0" /> 
+<monoVoiceEnvelope_0 v="1" /> 
+<monoVoiceEnvelope_1 v="0" /> 
+<hardclipmodes global="1" sc0="1" sc1="1" /> 
+<tuningApplicationMode v="0" /> 
+</nonparamconfig><extraoscdata><osc_extra_sc0_osc0 scene="0" osc="0" wavetable_display_name="(Patch Wavetable)" wavetable_formula="" wavetable_formula_nframes="10" wavetable_formula_res_base="5" extra_n="0" /> 
+<osc_extra_sc0_osc1 scene="0" osc="1" extra_n="0" /> 
+<osc_extra_sc0_osc2 scene="0" osc="2" extra_n="0" /> 
+<osc_extra_sc1_osc0 scene="1" osc="0" extra_n="0" /> 
+<osc_extra_sc1_osc1 scene="1" osc="1" extra_n="0" /> 
+<osc_extra_sc1_osc2 scene="1" osc="2" extra_n="0" /> 
+</extraoscdata><stepsequences /> 
+<msegs /> 
+<formulae /> 
+<customcontroller><entry i="0" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="1" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="2" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="3" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="4" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="5" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="6" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="7" bipolar="0" v="0.00000000000000" label="-" /> 
+</customcontroller><lfobanklabels /> 
+<modwheel s0="0.000000" s1="0.000000" /> 
+<compatability><correctlyTunedCombFilter v="1" /> 
+</compatability><dawExtraState populated="0" /> 
+</patch>
+
+FM Bass 2.fxp
+<nonparamconfig><monoVoicePrority_0 v="0" /> 
+<monoVoicePrority_1 v="0" /> 
+<monoVoiceEnvelope_0 v="1" /> 
+<monoVoiceEnvelope_1 v="0" /> 
+<hardclipmodes global="1" sc0="1" sc1="1" /> 
+<tuningApplicationMode v="0" /> 
+</nonparamconfig><extraoscdata><osc_extra_sc0_osc0 scene="0" osc="0" extra_n="0" /> 
+<osc_extra_sc0_osc1 scene="0" osc="1" extra_n="0" /> 
+<osc_extra_sc0_osc2 scene="0" osc="2" extra_n="0" /> 
+<osc_extra_sc1_osc0 scene="1" osc="0" extra_n="0" /> 
+<osc_extra_sc1_osc1 scene="1" osc="1" extra_n="0" /> 
+<osc_extra_sc1_osc2 scene="1" osc="2" extra_n="0" /> 
+</extraoscdata><stepsequences /> 
+<msegs /> 
+<formulae /> 
+<customcontroller><entry i="0" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="1" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="2" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="3" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="4" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="5" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="6" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="7" bipolar="0" v="0.00000000000000" label="-" /> 
+</customcontroller><lfobanklabels /> 
+<modwheel s0="0.000000" s1="0.000000" /> 
+<compatability><correctlyTunedCombFilter v="1" /> 
+</compatability><dawExtraState populated="0" /> 
+</patch>
+
+FM Bass 3.fxp
+<nonparamconfig><monoVoicePrority_0 v="0" /> 
+<monoVoicePrority_1 v="0" /> 
+<monoVoiceEnvelope_0 v="1" /> 
+<monoVoiceEnvelope_1 v="0" /> 
+<hardclipmodes global="1" sc0="1" sc1="1" /> 
+<tuningApplicationMode v="0" /> 
+</nonparamconfig><extraoscdata><osc_extra_sc0_osc0 scene="0" osc="0" extra_n="0" /> 
+<osc_extra_sc0_osc1 scene="0" osc="1" extra_n="0" /> 
+<osc_extra_sc0_osc2 scene="0" osc="2" extra_n="0" /> 
+<osc_extra_sc1_osc0 scene="1" osc="0" extra_n="0" /> 
+<osc_extra_sc1_osc1 scene="1" osc="1" extra_n="0" /> 
+<osc_extra_sc1_osc2 scene="1" osc="2" extra_n="0" /> 
+</extraoscdata><stepsequences /> 
+<msegs /> 
+<formulae /> 
+<customcontroller><entry i="0" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="1" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="2" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="3" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="4" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="5" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="6" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="7" bipolar="0" v="0.00000000000000" label="-" /> 
+</customcontroller><lfobanklabels /> 
+<modwheel s0="0.000000" s1="0.000000" /> 
+<compatability><correctlyTunedCombFilter v="1" /> 
+</compatability><dawExtraState populated="0" /> 
+</patch>
+
+FM Bass 4.fxp
+<stepsequences /> 
+<customcontroller><entry i="0" bipolar="0" v="0.000000" label="-" /> 
+<entry i="1" bipolar="0" v="0.000000" label="-" /> 
+<entry i="2" bipolar="0" v="0.000000" label="-" /> 
+<entry i="3" bipolar="0" v="0.000000" label="-" /> 
+<entry i="4" bipolar="0" v="0.000000" label="-" /> 
+<entry i="5" bipolar="0" v="0.000000" label="-" /> 
+<entry i="6" bipolar="0" v="0.000000" label="-" /> 
+<entry i="7" bipolar="0" v="0.000000" label="-" /> 
+</customcontroller><modwheel s0="0.000000" s1="0.000000" /> 
+</patch>
+
+FM Bass 5.fxp
+<nonparamconfig><monoVoicePrority_0 v="0" /> 
+<monoVoicePrority_1 v="0" /> 
+<monoVoiceEnvelope_0 v="1" /> 
+<monoVoiceEnvelope_1 v="0" /> 
+<hardclipmodes global="1" sc0="1" sc1="1" /> 
+<tuningApplicationMode v="0" /> 
+</nonparamconfig><extraoscdata><osc_extra_sc0_osc0 scene="0" osc="0" extra_n="0" /> 
+<osc_extra_sc0_osc1 scene="0" osc="1" extra_n="0" /> 
+<osc_extra_sc0_osc2 scene="0" osc="2" extra_n="0" /> 
+<osc_extra_sc1_osc0 scene="1" osc="0" extra_n="0" /> 
+<osc_extra_sc1_osc1 scene="1" osc="1" extra_n="0" /> 
+<osc_extra_sc1_osc2 scene="1" osc="2" extra_n="0" /> 
+</extraoscdata><stepsequences /> 
+<msegs /> 
+<formulae /> 
+<customcontroller><entry i="0" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="1" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="2" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="3" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="4" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="5" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="6" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="7" bipolar="0" v="0.00000000000000" label="-" /> 
+</customcontroller><lfobanklabels /> 
+<modwheel s0="0.000000" s1="0.000000" /> 
+<compatability><correctlyTunedCombFilter v="1" /> 
+</compatability><dawExtraState populated="0" /> 
+</patch>
+
+FM Bass 6.fxp
+<stepsequences /> 
+<customcontroller><entry i="0" bipolar="0" v="0.000000" label="-" /> 
+<entry i="1" bipolar="0" v="0.000000" label="-" /> 
+<entry i="2" bipolar="0" v="0.000000" label="-" /> 
+<entry i="3" bipolar="0" v="0.000000" label="-" /> 
+<entry i="4" bipolar="0" v="0.000000" label="-" /> 
+<entry i="5" bipolar="0" v="0.000000" label="-" /> 
+<entry i="6" bipolar="0" v="0.000000" label="-" /> 
+<entry i="7" bipolar="0" v="0.000000" label="-" /> 
+</customcontroller><modwheel s0="0.000000" s1="0.000000" /> 
+</patch>
+
+FM Combo.fxp
+<nonparamconfig><monoVoicePrority_0 v="0" /> 
+<monoVoicePrority_1 v="0" /> 
+<monoVoiceEnvelope_0 v="1" /> 
+<monoVoiceEnvelope_1 v="0" /> 
+<hardclipmodes global="1" sc0="1" sc1="1" /> 
+<tuningApplicationMode v="0" /> 
+</nonparamconfig><extraoscdata><osc_extra_sc0_osc0 scene="0" osc="0" extra_n="0" /> 
+<osc_extra_sc0_osc1 scene="0" osc="1" extra_n="0" /> 
+<osc_extra_sc0_osc2 scene="0" osc="2" extra_n="0" /> 
+<osc_extra_sc1_osc0 scene="1" osc="0" extra_n="0" /> 
+<osc_extra_sc1_osc1 scene="1" osc="1" extra_n="0" /> 
+<osc_extra_sc1_osc2 scene="1" osc="2" extra_n="0" /> 
+</extraoscdata><stepsequences /> 
+<msegs /> 
+<formulae /> 
+<customcontroller><entry i="0" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="1" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="2" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="3" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="4" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="5" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="6" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="7" bipolar="0" v="0.00000000000000" label="-" /> 
+</customcontroller><lfobanklabels /> 
+<modwheel s0="0.000000" s1="0.000000" /> 
+<compatability><correctlyTunedCombFilter v="1" /> 
+</compatability><dawExtraState populated="0" /> 
+</patch>
+
+FM Slap.fxp
+<stepsequences /> 
+<customcontroller><entry i="0" bipolar="0" v="0.000000" label="-" /> 
+<entry i="1" bipolar="0" v="0.000000" label="-" /> 
+<entry i="2" bipolar="0" v="0.000000" label="-" /> 
+<entry i="3" bipolar="0" v="0.000000" label="-" /> 
+<entry i="4" bipolar="0" v="0.000000" label="-" /> 
+<entry i="5" bipolar="0" v="0.000000" label="-" /> 
+<entry i="6" bipolar="0" v="0.000000" label="-" /> 
+<entry i="7" bipolar="0" v="0.000000" label="-" /> 
+</customcontroller><modwheel s0="0.000000" s1="0.000000" /> 
+</patch>
+
+Helmeto.fxp
+<stepsequences /> 
+<customcontroller><entry i="0" bipolar="0" v="0.000000" label="-" /> 
+<entry i="1" bipolar="0" v="0.000000" label="-" /> 
+<entry i="2" bipolar="0" v="0.000000" label="-" /> 
+<entry i="3" bipolar="0" v="0.000000" label="-" /> 
+<entry i="4" bipolar="0" v="0.000000" label="-" /> 
+<entry i="5" bipolar="0" v="0.000000" label="-" /> 
+<entry i="6" bipolar="0" v="0.000000" label="-" /> 
+<entry i="7" bipolar="0" v="0.000000" label="-" /> 
+</customcontroller><modwheel s0="0.000000" s1="0.000000" /> 
+</patch>
+
+Lord Sawtooth.fxp
+<nonparamconfig><monoVoicePrority_0 v="0" /> 
+<monoVoicePrority_1 v="0" /> 
+<monoVoiceEnvelope_0 v="1" /> 
+<monoVoiceEnvelope_1 v="0" /> 
+<hardclipmodes global="1" sc0="1" sc1="1" /> 
+<tuningApplicationMode v="0" /> 
+</nonparamconfig><extraoscdata><osc_extra_sc0_osc0 scene="0" osc="0" extra_n="0" /> 
+<osc_extra_sc0_osc1 scene="0" osc="1" extra_n="0" /> 
+<osc_extra_sc0_osc2 scene="0" osc="2" extra_n="0" /> 
+<osc_extra_sc1_osc0 scene="1" osc="0" extra_n="0" /> 
+<osc_extra_sc1_osc1 scene="1" osc="1" extra_n="0" /> 
+<osc_extra_sc1_osc2 scene="1" osc="2" extra_n="0" /> 
+</extraoscdata><stepsequences /> 
+<msegs /> 
+<formulae /> 
+<customcontroller><entry i="0" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="1" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="2" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="3" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="4" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="5" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="6" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="7" bipolar="0" v="0.00000000000000" label="-" /> 
+</customcontroller><lfobanklabels /> 
+<modwheel s0="0.000000" s1="0.000000" /> 
+<compatability><correctlyTunedCombFilter v="1" /> 
+</compatability><dawExtraState populated="0" /> 
+</patch>
+
+Mellow.fxp
+<nonparamconfig><monoVoicePrority_0 v="0" /> 
+<monoVoicePrority_1 v="0" /> 
+<monoVoiceEnvelope_0 v="1" /> 
+<monoVoiceEnvelope_1 v="0" /> 
+<hardclipmodes global="1" sc0="1" sc1="1" /> 
+<tuningApplicationMode v="0" /> 
+</nonparamconfig><extraoscdata><osc_extra_sc0_osc0 scene="0" osc="0" extra_n="0" /> 
+<osc_extra_sc0_osc1 scene="0" osc="1" extra_n="0" /> 
+<osc_extra_sc0_osc2 scene="0" osc="2" extra_n="0" /> 
+<osc_extra_sc1_osc0 scene="1" osc="0" extra_n="0" /> 
+<osc_extra_sc1_osc1 scene="1" osc="1" extra_n="0" /> 
+<osc_extra_sc1_osc2 scene="1" osc="2" extra_n="0" /> 
+</extraoscdata><stepsequences /> 
+<msegs /> 
+<formulae /> 
+<customcontroller><entry i="0" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="1" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="2" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="3" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="4" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="5" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="6" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="7" bipolar="0" v="0.00000000000000" label="-" /> 
+</customcontroller><lfobanklabels /> 
+<modwheel s0="0.000000" s1="0.000000" /> 
+<compatability><correctlyTunedCombFilter v="1" /> 
+</compatability><dawExtraState populated="0" /> 
+</patch>
+
+Metal Square.fxp
+<stepsequences /> 
+<customcontroller><entry i="0" bipolar="0" v="0.000000" label="-" /> 
+<entry i="1" bipolar="0" v="0.000000" label="-" /> 
+<entry i="2" bipolar="0" v="0.000000" label="-" /> 
+<entry i="3" bipolar="0" v="0.000000" label="-" /> 
+<entry i="4" bipolar="0" v="0.000000" label="-" /> 
+<entry i="5" bipolar="0" v="0.000000" label="-" /> 
+<entry i="6" bipolar="0" v="0.000000" label="-" /> 
+<entry i="7" bipolar="0" v="0.000000" label="-" /> 
+</customcontroller><modwheel s0="0.000000" s1="0.000000" /> 
+</patch>
+
+Mmm... Pointy!.fxp
+<stepsequences /> 
+<customcontroller><entry i="0" bipolar="0" v="0.000000" label="-" /> 
+<entry i="1" bipolar="0" v="0.000000" label="-" /> 
+<entry i="2" bipolar="0" v="0.000000" label="-" /> 
+<entry i="3" bipolar="0" v="0.000000" label="-" /> 
+<entry i="4" bipolar="0" v="0.000000" label="-" /> 
+<entry i="5" bipolar="0" v="0.000000" label="-" /> 
+<entry i="6" bipolar="0" v="0.000000" label="-" /> 
+<entry i="7" bipolar="0" v="0.000000" label="-" /> 
+</customcontroller><modwheel s0="0.000000" s1="0.000000" /> 
+</patch>
+
+Piano Bass.fxp
+<stepsequences /> 
+<customcontroller><entry i="0" bipolar="0" v="0.000000" label="-" /> 
+<entry i="1" bipolar="0" v="0.000000" label="-" /> 
+<entry i="2" bipolar="0" v="0.000000" label="-" /> 
+<entry i="3" bipolar="0" v="0.000000" label="-" /> 
+<entry i="4" bipolar="0" v="0.000000" label="-" /> 
+<entry i="5" bipolar="0" v="0.000000" label="-" /> 
+<entry i="6" bipolar="0" v="0.000000" label="-" /> 
+<entry i="7" bipolar="0" v="0.000000" label="-" /> 
+</customcontroller><modwheel s0="0.000000" s1="0.000000" /> 
+</patch>
+
+Plain.fxp
+<nonparamconfig><monoVoicePrority_0 v="0" /> 
+<monoVoicePrority_1 v="0" /> 
+<monoVoiceEnvelope_0 v="1" /> 
+<monoVoiceEnvelope_1 v="0" /> 
+<hardclipmodes global="1" sc0="1" sc1="1" /> 
+<tuningApplicationMode v="0" /> 
+</nonparamconfig><extraoscdata><osc_extra_sc0_osc0 scene="0" osc="0" extra_n="0" /> 
+<osc_extra_sc0_osc1 scene="0" osc="1" extra_n="0" /> 
+<osc_extra_sc0_osc2 scene="0" osc="2" extra_n="0" /> 
+<osc_extra_sc1_osc0 scene="1" osc="0" extra_n="0" /> 
+<osc_extra_sc1_osc1 scene="1" osc="1" extra_n="0" /> 
+<osc_extra_sc1_osc2 scene="1" osc="2" extra_n="0" /> 
+</extraoscdata><stepsequences /> 
+<msegs /> 
+<formulae /> 
+<customcontroller><entry i="0" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="1" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="2" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="3" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="4" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="5" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="6" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="7" bipolar="0" v="0.00000000000000" label="-" /> 
+</customcontroller><lfobanklabels /> 
+<modwheel s0="0.000000" s1="0.000000" /> 
+<compatability><correctlyTunedCombFilter v="1" /> 
+</compatability><dawExtraState populated="0" /> 
+</patch>
+
+Ring Mayhem.fxp
+<stepsequences /> 
+<customcontroller><entry i="0" bipolar="0" v="0.000000" label="-" /> 
+<entry i="1" bipolar="0" v="0.000000" label="-" /> 
+<entry i="2" bipolar="0" v="0.000000" label="-" /> 
+<entry i="3" bipolar="0" v="0.000000" label="-" /> 
+<entry i="4" bipolar="0" v="0.000000" label="-" /> 
+<entry i="5" bipolar="0" v="0.000000" label="-" /> 
+<entry i="6" bipolar="0" v="0.000000" label="-" /> 
+<entry i="7" bipolar="0" v="0.000000" label="-" /> 
+</customcontroller><modwheel s0="0.000000" s1="0.000000" /> 
+</patch>
+
+Rubber Bass.fxp
+<nonparamconfig><monoVoicePrority_0 v="0" /> 
+<monoVoicePrority_1 v="0" /> 
+<monoVoiceEnvelope_0 v="1" /> 
+<monoVoiceEnvelope_1 v="0" /> 
+<hardclipmodes global="1" sc0="1" sc1="1" /> 
+<tuningApplicationMode v="0" /> 
+</nonparamconfig><extraoscdata><osc_extra_sc0_osc0 scene="0" osc="0" extra_n="0" /> 
+<osc_extra_sc0_osc1 scene="0" osc="1" extra_n="0" /> 
+<osc_extra_sc0_osc2 scene="0" osc="2" extra_n="0" /> 
+<osc_extra_sc1_osc0 scene="1" osc="0" extra_n="0" /> 
+<osc_extra_sc1_osc1 scene="1" osc="1" extra_n="0" /> 
+<osc_extra_sc1_osc2 scene="1" osc="2" extra_n="0" /> 
+</extraoscdata><stepsequences /> 
+<msegs /> 
+<formulae /> 
+<customcontroller><entry i="0" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="1" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="2" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="3" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="4" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="5" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="6" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="7" bipolar="0" v="0.00000000000000" label="-" /> 
+</customcontroller><lfobanklabels /> 
+<modwheel s0="0.000000" s1="0.000000" /> 
+<compatability><correctlyTunedCombFilter v="1" /> 
+</compatability><dawExtraState populated="0" /> 
+</patch>
+
+Rumble.fxp
+<stepsequences /> 
+<customcontroller><entry i="0" bipolar="1" v="0.000000" label="-" /> 
+<entry i="1" bipolar="1" v="0.000000" label="-" /> 
+<entry i="2" bipolar="0" v="0.000000" label="-" /> 
+<entry i="3" bipolar="0" v="0.000000" label="-" /> 
+<entry i="4" bipolar="0" v="0.000000" label="-" /> 
+<entry i="5" bipolar="0" v="0.000000" label="-" /> 
+<entry i="6" bipolar="0" v="0.000000" label="-" /> 
+<entry i="7" bipolar="0" v="0.000000" label="-" /> 
+</customcontroller><modwheel s0="0.000000" s1="0.000000" /> 
+</patch>
+
+Saw Lo-Fi.fxp
+<nonparamconfig><monoVoicePrority_0 v="0" /> 
+<monoVoicePrority_1 v="0" /> 
+<monoVoiceEnvelope_0 v="1" /> 
+<monoVoiceEnvelope_1 v="0" /> 
+<hardclipmodes global="1" sc0="1" sc1="1" /> 
+<tuningApplicationMode v="0" /> 
+</nonparamconfig><extraoscdata><osc_extra_sc0_osc0 scene="0" osc="0" extra_n="0" /> 
+<osc_extra_sc0_osc1 scene="0" osc="1" extra_n="0" /> 
+<osc_extra_sc0_osc2 scene="0" osc="2" extra_n="0" /> 
+<osc_extra_sc1_osc0 scene="1" osc="0" extra_n="0" /> 
+<osc_extra_sc1_osc1 scene="1" osc="1" extra_n="0" /> 
+<osc_extra_sc1_osc2 scene="1" osc="2" extra_n="0" /> 
+</extraoscdata><stepsequences /> 
+<msegs /> 
+<formulae /> 
+<customcontroller><entry i="0" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="1" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="2" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="3" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="4" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="5" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="6" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="7" bipolar="0" v="0.00000000000000" label="-" /> 
+</customcontroller><lfobanklabels /> 
+<modwheel s0="0.000000" s1="0.000000" /> 
+<compatability><correctlyTunedCombFilter v="1" /> 
+</compatability><dawExtraState populated="0" /> 
+</patch>
+
+Schnell.fxp
+<stepsequences /> 
+<customcontroller><entry i="0" bipolar="0" v="0.000000" label="-" /> 
+<entry i="1" bipolar="0" v="0.000000" label="-" /> 
+<entry i="2" bipolar="0" v="0.000000" label="-" /> 
+<entry i="3" bipolar="0" v="0.000000" label="-" /> 
+<entry i="4" bipolar="0" v="0.000000" label="-" /> 
+<entry i="5" bipolar="0" v="0.000000" label="-" /> 
+<entry i="6" bipolar="0" v="0.000000" label="-" /> 
+<entry i="7" bipolar="0" v="0.000000" label="-" /> 
+</customcontroller><modwheel s0="0.000000" s1="0.000000" /> 
+</patch>
+
+Slow.fxp
+<nonparamconfig><monoVoicePrority_0 v="0" /> 
+<monoVoicePrority_1 v="0" /> 
+<monoVoiceEnvelope_0 v="1" /> 
+<monoVoiceEnvelope_1 v="0" /> 
+<hardclipmodes global="1" sc0="1" sc1="1" /> 
+<tuningApplicationMode v="0" /> 
+</nonparamconfig><extraoscdata><osc_extra_sc0_osc0 scene="0" osc="0" extra_n="0" /> 
+<osc_extra_sc0_osc1 scene="0" osc="1" extra_n="0" /> 
+<osc_extra_sc0_osc2 scene="0" osc="2" extra_n="0" /> 
+<osc_extra_sc1_osc0 scene="1" osc="0" extra_n="0" /> 
+<osc_extra_sc1_osc1 scene="1" osc="1" extra_n="0" /> 
+<osc_extra_sc1_osc2 scene="1" osc="2" extra_n="0" /> 
+</extraoscdata><stepsequences /> 
+<msegs /> 
+<formulae /> 
+<customcontroller><entry i="0" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="1" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="2" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="3" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="4" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="5" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="6" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="7" bipolar="0" v="0.00000000000000" label="-" /> 
+</customcontroller><lfobanklabels /> 
+<modwheel s0="0.000000" s1="0.000000" /> 
+<compatability><correctlyTunedCombFilter v="1" /> 
+</compatability><dawExtraState populated="0" /> 
+</patch>
+
+Smoothie.fxp
+<nonparamconfig><monoVoicePrority_0 v="0" /> 
+<monoVoicePrority_1 v="0" /> 
+<monoVoiceEnvelope_0 v="1" /> 
+<monoVoiceEnvelope_1 v="0" /> 
+<hardclipmodes global="1" sc0="1" sc1="1" /> 
+<tuningApplicationMode v="0" /> 
+</nonparamconfig><extraoscdata><osc_extra_sc0_osc0 scene="0" osc="0" extra_n="0" /> 
+<osc_extra_sc0_osc1 scene="0" osc="1" extra_n="0" /> 
+<osc_extra_sc0_osc2 scene="0" osc="2" extra_n="0" /> 
+<osc_extra_sc1_osc0 scene="1" osc="0" extra_n="0" /> 
+<osc_extra_sc1_osc1 scene="1" osc="1" extra_n="0" /> 
+<osc_extra_sc1_osc2 scene="1" osc="2" extra_n="0" /> 
+</extraoscdata><stepsequences /> 
+<msegs /> 
+<formulae /> 
+<customcontroller><entry i="0" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="1" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="2" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="3" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="4" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="5" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="6" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="7" bipolar="0" v="0.00000000000000" label="-" /> 
+</customcontroller><lfobanklabels /> 
+<modwheel s0="0.000000" s1="0.000000" /> 
+<compatability><correctlyTunedCombFilter v="1" /> 
+</compatability><dawExtraState populated="0" /> 
+</patch>
+
+Square Bass.fxp
+<nonparamconfig><monoVoicePrority_0 v="0" /> 
+<monoVoicePrority_1 v="0" /> 
+<hardclipmodes global="1" sc0="1" sc1="1" /> 
+<tuningApplicationMode v="0" /> 
+</nonparamconfig><extraoscdata><osc_extra_sc0_osc0 scene="0" osc="0" extra_n="0" /> 
+<osc_extra_sc0_osc1 scene="0" osc="1" extra_n="0" /> 
+<osc_extra_sc0_osc2 scene="0" osc="2" extra_n="0" /> 
+<osc_extra_sc1_osc0 scene="1" osc="0" extra_n="0" /> 
+<osc_extra_sc1_osc1 scene="1" osc="1" extra_n="0" /> 
+<osc_extra_sc1_osc2 scene="1" osc="2" extra_n="0" /> 
+</extraoscdata><stepsequences /> 
+<msegs /> 
+<customcontroller><entry i="0" bipolar="0" v="0.000000" label="-" /> 
+<entry i="1" bipolar="0" v="0.000000" label="-" /> 
+<entry i="2" bipolar="0" v="0.000000" label="-" /> 
+<entry i="3" bipolar="0" v="0.000000" label="-" /> 
+<entry i="4" bipolar="0" v="0.000000" label="-" /> 
+<entry i="5" bipolar="0" v="0.000000" label="-" /> 
+<entry i="6" bipolar="0" v="0.000000" label="-" /> 
+<entry i="7" bipolar="0" v="0.000000" label="-" /> 
+</customcontroller><modwheel s0="0.000000" s1="0.000000" /> 
+<compatability><correctlyTunedCombFilter v="0" /> 
+</compatability><dawExtraState populated="0" /> 
+</patch>
+
+Squared.fxp
+<nonparamconfig><monoVoicePrority_0 v="0" /> 
+<monoVoicePrority_1 v="0" /> 
+<monoVoiceEnvelope_0 v="1" /> 
+<monoVoiceEnvelope_1 v="0" /> 
+<hardclipmodes global="1" sc0="1" sc1="1" /> 
+<tuningApplicationMode v="0" /> 
+</nonparamconfig><extraoscdata><osc_extra_sc0_osc0 scene="0" osc="0" extra_n="0" /> 
+<osc_extra_sc0_osc1 scene="0" osc="1" extra_n="0" /> 
+<osc_extra_sc0_osc2 scene="0" osc="2" extra_n="0" /> 
+<osc_extra_sc1_osc0 scene="1" osc="0" extra_n="0" /> 
+<osc_extra_sc1_osc1 scene="1" osc="1" extra_n="0" /> 
+<osc_extra_sc1_osc2 scene="1" osc="2" extra_n="0" /> 
+</extraoscdata><stepsequences /> 
+<msegs /> 
+<formulae /> 
+<customcontroller><entry i="0" bipolar="0" v="0.00000000000000" label="Sync" /> 
+<entry i="1" bipolar="1" v="0.00000000000000" label="Resonance" /> 
+<entry i="2" bipolar="0" v="0.00000000000000" label="Lowcut" /> 
+<entry i="3" bipolar="1" v="0.00000000000000" label="Decay" /> 
+<entry i="4" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="5" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="6" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="7" bipolar="0" v="0.00000000000000" label="-" /> 
+</customcontroller><lfobanklabels /> 
+<modwheel s0="0.000000" s1="0.000000" /> 
+<compatability><correctlyTunedCombFilter v="1" /> 
+</compatability><dawExtraState populated="0" /> 
+</patch>
+
+Stable.fxp
+<nonparamconfig><monoVoicePrority_0 v="0" /> 
+<monoVoicePrority_1 v="0" /> 
+<monoVoiceEnvelope_0 v="1" /> 
+<monoVoiceEnvelope_1 v="0" /> 
+<hardclipmodes global="1" sc0="1" sc1="1" /> 
+<tuningApplicationMode v="0" /> 
+</nonparamconfig><extraoscdata><osc_extra_sc0_osc0 scene="0" osc="0" extra_n="0" /> 
+<osc_extra_sc0_osc1 scene="0" osc="1" extra_n="0" /> 
+<osc_extra_sc0_osc2 scene="0" osc="2" extra_n="0" /> 
+<osc_extra_sc1_osc0 scene="1" osc="0" extra_n="0" /> 
+<osc_extra_sc1_osc1 scene="1" osc="1" extra_n="0" /> 
+<osc_extra_sc1_osc2 scene="1" osc="2" extra_n="0" /> 
+</extraoscdata><stepsequences /> 
+<msegs /> 
+<formulae /> 
+<customcontroller><entry i="0" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="1" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="2" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="3" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="4" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="5" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="6" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="7" bipolar="0" v="0.00000000000000" label="-" /> 
+</customcontroller><lfobanklabels /> 
+<modwheel s0="0.000000" s1="0.000000" /> 
+<compatability><correctlyTunedCombFilter v="1" /> 
+</compatability><dawExtraState populated="0" /> 
+</patch>
+
+Static 1.fxp
+<nonparamconfig><monoVoicePrority_0 v="0" /> 
+<monoVoicePrority_1 v="0" /> 
+<monoVoiceEnvelope_0 v="1" /> 
+<monoVoiceEnvelope_1 v="0" /> 
+<hardclipmodes global="1" sc0="1" sc1="1" /> 
+<tuningApplicationMode v="0" /> 
+</nonparamconfig><extraoscdata><osc_extra_sc0_osc0 scene="0" osc="0" wavetable_display_name="(Patch Wavetable)" wavetable_formula="" wavetable_formula_nframes="10" wavetable_formula_res_base="5" extra_n="0" /> 
+<osc_extra_sc0_osc1 scene="0" osc="1" extra_n="0" /> 
+<osc_extra_sc0_osc2 scene="0" osc="2" extra_n="0" /> 
+<osc_extra_sc1_osc0 scene="1" osc="0" extra_n="0" /> 
+<osc_extra_sc1_osc1 scene="1" osc="1" extra_n="0" /> 
+<osc_extra_sc1_osc2 scene="1" osc="2" extra_n="0" /> 
+</extraoscdata><stepsequences /> 
+<msegs /> 
+<formulae /> 
+<customcontroller><entry i="0" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="1" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="2" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="3" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="4" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="5" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="6" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="7" bipolar="0" v="0.00000000000000" label="-" /> 
+</customcontroller><lfobanklabels /> 
+<modwheel s0="0.000000" s1="0.000000" /> 
+<compatability><correctlyTunedCombFilter v="1" /> 
+</compatability><dawExtraState populated="0" /> 
+</patch>
+
+Static 2.fxp
+<nonparamconfig><monoVoicePrority_0 v="0" /> 
+<monoVoicePrority_1 v="0" /> 
+<monoVoiceEnvelope_0 v="1" /> 
+<monoVoiceEnvelope_1 v="0" /> 
+<hardclipmodes global="1" sc0="1" sc1="1" /> 
+<tuningApplicationMode v="0" /> 
+</nonparamconfig><extraoscdata><osc_extra_sc0_osc0 scene="0" osc="0" wavetable_display_name="(Patch Wavetable)" wavetable_formula="" wavetable_formula_nframes="10" wavetable_formula_res_base="5" extra_n="0" /> 
+<osc_extra_sc0_osc1 scene="0" osc="1" extra_n="0" /> 
+<osc_extra_sc0_osc2 scene="0" osc="2" extra_n="0" /> 
+<osc_extra_sc1_osc0 scene="1" osc="0" extra_n="0" /> 
+<osc_extra_sc1_osc1 scene="1" osc="1" extra_n="0" /> 
+<osc_extra_sc1_osc2 scene="1" osc="2" extra_n="0" /> 
+</extraoscdata><stepsequences /> 
+<msegs /> 
+<formulae /> 
+<customcontroller><entry i="0" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="1" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="2" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="3" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="4" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="5" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="6" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="7" bipolar="0" v="0.00000000000000" label="-" /> 
+</customcontroller><lfobanklabels /> 
+<modwheel s0="0.000000" s1="0.000000" /> 
+<compatability><correctlyTunedCombFilter v="1" /> 
+</compatability><dawExtraState populated="0" /> 
+</patch>
+
+Stone.fxp
+<stepsequences /> 
+<customcontroller><entry i="0" bipolar="0" v="0.000000" label="-" /> 
+<entry i="1" bipolar="0" v="0.000000" label="-" /> 
+<entry i="2" bipolar="0" v="0.000000" label="-" /> 
+<entry i="3" bipolar="0" v="0.000000" label="-" /> 
+<entry i="4" bipolar="0" v="0.000000" label="-" /> 
+<entry i="5" bipolar="0" v="0.000000" label="-" /> 
+<entry i="6" bipolar="0" v="0.000000" label="-" /> 
+<entry i="7" bipolar="0" v="0.000000" label="-" /> 
+</customcontroller><modwheel s0="0.000000" s1="0.000000" /> 
+</patch>
+
+Sub 1.fxp
+<stepsequences /> 
+<customcontroller><entry i="0" bipolar="0" v="0.000000" label="-" /> 
+<entry i="1" bipolar="0" v="0.000000" label="-" /> 
+<entry i="2" bipolar="0" v="0.000000" label="-" /> 
+<entry i="3" bipolar="0" v="0.000000" label="-" /> 
+<entry i="4" bipolar="0" v="0.000000" label="-" /> 
+<entry i="5" bipolar="0" v="0.000000" label="-" /> 
+<entry i="6" bipolar="0" v="0.000000" label="-" /> 
+<entry i="7" bipolar="0" v="0.000000" label="-" /> 
+</customcontroller><modwheel s0="0.000000" s1="0.000000" /> 
+</patch>
+
+Sub 2.fxp
+<stepsequences /> 
+<customcontroller><entry i="0" bipolar="0" v="0.000000" label="-" /> 
+<entry i="1" bipolar="0" v="0.000000" label="-" /> 
+<entry i="2" bipolar="0" v="0.000000" label="-" /> 
+<entry i="3" bipolar="0" v="0.000000" label="-" /> 
+<entry i="4" bipolar="0" v="0.000000" label="-" /> 
+<entry i="5" bipolar="0" v="0.000000" label="-" /> 
+<entry i="6" bipolar="0" v="0.000000" label="-" /> 
+<entry i="7" bipolar="0" v="0.000000" label="-" /> 
+</customcontroller><modwheel s0="0.000000" s1="0.000000" /> 
+</patch>
+
+Sub 3.fxp
+<nonparamconfig><monoVoicePrority_0 v="0" /> 
+<monoVoicePrority_1 v="0" /> 
+<monoVoiceEnvelope_0 v="1" /> 
+<monoVoiceEnvelope_1 v="0" /> 
+<hardclipmodes global="1" sc0="1" sc1="1" /> 
+<tuningApplicationMode v="0" /> 
+</nonparamconfig><extraoscdata><osc_extra_sc0_osc0 scene="0" osc="0" extra_n="0" /> 
+<osc_extra_sc0_osc1 scene="0" osc="1" extra_n="0" /> 
+<osc_extra_sc0_osc2 scene="0" osc="2" extra_n="0" /> 
+<osc_extra_sc1_osc0 scene="1" osc="0" extra_n="0" /> 
+<osc_extra_sc1_osc1 scene="1" osc="1" extra_n="0" /> 
+<osc_extra_sc1_osc2 scene="1" osc="2" extra_n="0" /> 
+</extraoscdata><stepsequences /> 
+<msegs /> 
+<formulae /> 
+<customcontroller><entry i="0" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="1" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="2" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="3" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="4" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="5" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="6" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="7" bipolar="0" v="0.00000000000000" label="-" /> 
+</customcontroller><lfobanklabels /> 
+<modwheel s0="0.000000" s1="0.000000" /> 
+<compatability><correctlyTunedCombFilter v="1" /> 
+</compatability><dawExtraState populated="0" /> 
+</patch>
+
+Sub 4.fxp
+<nonparamconfig><monoVoicePrority_0 v="0" /> 
+<monoVoicePrority_1 v="0" /> 
+<monoVoiceEnvelope_0 v="1" /> 
+<monoVoiceEnvelope_1 v="0" /> 
+<hardclipmodes global="1" sc0="1" sc1="1" /> 
+<tuningApplicationMode v="0" /> 
+</nonparamconfig><extraoscdata><osc_extra_sc0_osc0 scene="0" osc="0" extra_n="0" /> 
+<osc_extra_sc0_osc1 scene="0" osc="1" extra_n="0" /> 
+<osc_extra_sc0_osc2 scene="0" osc="2" extra_n="0" /> 
+<osc_extra_sc1_osc0 scene="1" osc="0" extra_n="0" /> 
+<osc_extra_sc1_osc1 scene="1" osc="1" extra_n="0" /> 
+<osc_extra_sc1_osc2 scene="1" osc="2" extra_n="0" /> 
+</extraoscdata><stepsequences /> 
+<msegs /> 
+<formulae /> 
+<customcontroller><entry i="0" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="1" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="2" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="3" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="4" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="5" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="6" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="7" bipolar="0" v="0.00000000000000" label="-" /> 
+</customcontroller><lfobanklabels /> 
+<modwheel s0="0.000000" s1="0.000000" /> 
+<compatability><correctlyTunedCombFilter v="1" /> 
+</compatability><dawExtraState populated="0" /> 
+</patch>
+
+Sub Square.fxp
+<stepsequences /> 
+<customcontroller><entry i="0" bipolar="0" v="0.000000" label="-" /> 
+<entry i="1" bipolar="0" v="0.000000" label="-" /> 
+<entry i="2" bipolar="0" v="0.000000" label="-" /> 
+<entry i="3" bipolar="0" v="0.000000" label="-" /> 
+<entry i="4" bipolar="0" v="0.000000" label="-" /> 
+<entry i="5" bipolar="0" v="0.000000" label="-" /> 
+<entry i="6" bipolar="0" v="0.000000" label="-" /> 
+<entry i="7" bipolar="0" v="0.000000" label="-" /> 
+</customcontroller><modwheel s0="0.000000" s1="0.000000" /> 
+</patch>
+
+Tacky 1.fxp
+<nonparamconfig><monoVoicePrority_0 v="0" /> 
+<monoVoicePrority_1 v="0" /> 
+<monoVoiceEnvelope_0 v="1" /> 
+<monoVoiceEnvelope_1 v="0" /> 
+<hardclipmodes global="1" sc0="1" sc1="1" /> 
+<tuningApplicationMode v="0" /> 
+</nonparamconfig><extraoscdata><osc_extra_sc0_osc0 scene="0" osc="0" extra_n="0" /> 
+<osc_extra_sc0_osc1 scene="0" osc="1" extra_n="0" /> 
+<osc_extra_sc0_osc2 scene="0" osc="2" extra_n="0" /> 
+<osc_extra_sc1_osc0 scene="1" osc="0" extra_n="0" /> 
+<osc_extra_sc1_osc1 scene="1" osc="1" extra_n="0" /> 
+<osc_extra_sc1_osc2 scene="1" osc="2" extra_n="0" /> 
+</extraoscdata><stepsequences /> 
+<msegs /> 
+<formulae /> 
+<customcontroller><entry i="0" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="1" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="2" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="3" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="4" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="5" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="6" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="7" bipolar="0" v="0.00000000000000" label="-" /> 
+</customcontroller><lfobanklabels /> 
+<modwheel s0="0.000000" s1="0.000000" /> 
+<compatability><correctlyTunedCombFilter v="1" /> 
+</compatability><dawExtraState populated="0" /> 
+</patch>
+
+Tacky 2.fxp
+<nonparamconfig><monoVoicePrority_0 v="0" /> 
+<monoVoicePrority_1 v="0" /> 
+<monoVoiceEnvelope_0 v="1" /> 
+<monoVoiceEnvelope_1 v="0" /> 
+<hardclipmodes global="1" sc0="1" sc1="1" /> 
+<tuningApplicationMode v="0" /> 
+</nonparamconfig><extraoscdata><osc_extra_sc0_osc0 scene="0" osc="0" extra_n="0" /> 
+<osc_extra_sc0_osc1 scene="0" osc="1" extra_n="0" /> 
+<osc_extra_sc0_osc2 scene="0" osc="2" extra_n="0" /> 
+<osc_extra_sc1_osc0 scene="1" osc="0" extra_n="0" /> 
+<osc_extra_sc1_osc1 scene="1" osc="1" extra_n="0" /> 
+<osc_extra_sc1_osc2 scene="1" osc="2" extra_n="0" /> 
+</extraoscdata><stepsequences /> 
+<msegs /> 
+<formulae /> 
+<customcontroller><entry i="0" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="1" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="2" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="3" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="4" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="5" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="6" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="7" bipolar="0" v="0.00000000000000" label="-" /> 
+</customcontroller><lfobanklabels /> 
+<modwheel s0="0.000000" s1="0.000000" /> 
+<compatability><correctlyTunedCombFilter v="1" /> 
+</compatability><dawExtraState populated="0" /> 
+</patch>
+
+Theme.fxp
+<stepsequences /> 
+<customcontroller><entry i="0" bipolar="0" v="0.000000" label="-" /> 
+<entry i="1" bipolar="0" v="0.000000" label="-" /> 
+<entry i="2" bipolar="0" v="0.000000" label="-" /> 
+<entry i="3" bipolar="0" v="0.000000" label="-" /> 
+<entry i="4" bipolar="0" v="0.000000" label="-" /> 
+<entry i="5" bipolar="0" v="0.000000" label="-" /> 
+<entry i="6" bipolar="0" v="0.000000" label="-" /> 
+<entry i="7" bipolar="0" v="0.000000" label="-" /> 
+</customcontroller><modwheel s0="0.000000" s1="0.000000" /> 
+</patch>
+
+Wide Bassline.fxp
+<nonparamconfig><monoVoicePrority_0 v="0" /> 
+<monoVoicePrority_1 v="0" /> 
+<monoVoiceEnvelope_0 v="1" /> 
+<monoVoiceEnvelope_1 v="0" /> 
+<hardclipmodes global="1" sc0="1" sc1="1" /> 
+<tuningApplicationMode v="0" /> 
+</nonparamconfig><extraoscdata><osc_extra_sc0_osc0 scene="0" osc="0" extra_n="0" /> 
+<osc_extra_sc0_osc1 scene="0" osc="1" extra_n="0" /> 
+<osc_extra_sc0_osc2 scene="0" osc="2" extra_n="0" /> 
+<osc_extra_sc1_osc0 scene="1" osc="0" extra_n="0" /> 
+<osc_extra_sc1_osc1 scene="1" osc="1" extra_n="0" /> 
+<osc_extra_sc1_osc2 scene="1" osc="2" extra_n="0" /> 
+</extraoscdata><stepsequences /> 
+<msegs /> 
+<formulae /> 
+<customcontroller><entry i="0" bipolar="0" v="0.49000000953674" label="Envmod" /> 
+<entry i="1" bipolar="0" v="0.00000000000000" label="Decay" /> 
+<entry i="2" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="3" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="4" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="5" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="6" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="7" bipolar="0" v="0.00000000000000" label="-" /> 
+</customcontroller><lfobanklabels /> 
+<modwheel s0="0.000000" s1="0.000000" /> 
+<compatability><correctlyTunedCombFilter v="1" /> 
+</compatability><dawExtraState populated="0" /> 
+</patch>
+
+Width.fxp
+<nonparamconfig><monoVoicePrority_0 v="0" /> 
+<monoVoicePrority_1 v="0" /> 
+<monoVoiceEnvelope_0 v="1" /> 
+<monoVoiceEnvelope_1 v="1" /> 
+<hardclipmodes global="1" sc0="1" sc1="1" /> 
+<tuningApplicationMode v="0" /> 
+</nonparamconfig><extraoscdata><osc_extra_sc0_osc0 scene="0" osc="0" extra_n="0" /> 
+<osc_extra_sc0_osc1 scene="0" osc="1" extra_n="0" /> 
+<osc_extra_sc0_osc2 scene="0" osc="2" extra_n="0" /> 
+<osc_extra_sc1_osc0 scene="1" osc="0" extra_n="0" /> 
+<osc_extra_sc1_osc1 scene="1" osc="1" extra_n="0" /> 
+<osc_extra_sc1_osc2 scene="1" osc="2" extra_n="0" /> 
+</extraoscdata><stepsequences /> 
+<msegs /> 
+<formulae /> 
+<customcontroller><entry i="0" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="1" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="2" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="3" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="4" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="5" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="6" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="7" bipolar="0" v="0.00000000000000" label="-" /> 
+</customcontroller><lfobanklabels /> 
+<modwheel s0="0.000000" s1="0.000000" /> 
+<compatability><correctlyTunedCombFilter v="1" /> 
+</compatability><dawExtraState populated="0" /> 
+</patch>
+
+WT Bass.fxp
+<nonparamconfig><monoVoicePrority_0 v="0" /> 
+<monoVoicePrority_1 v="0" /> 
+<monoVoiceEnvelope_0 v="1" /> 
+<monoVoiceEnvelope_1 v="0" /> 
+<hardclipmodes global="1" sc0="1" sc1="1" /> 
+<tuningApplicationMode v="0" /> 
+</nonparamconfig><extraoscdata><osc_extra_sc0_osc0 scene="0" osc="0" wavetable_display_name="(Patch Wavetable)" wavetable_formula="" wavetable_formula_nframes="10" wavetable_formula_res_base="5" extra_n="0" /> 
+<osc_extra_sc0_osc1 scene="0" osc="1" extra_n="0" /> 
+<osc_extra_sc0_osc2 scene="0" osc="2" extra_n="0" /> 
+<osc_extra_sc1_osc0 scene="1" osc="0" extra_n="0" /> 
+<osc_extra_sc1_osc1 scene="1" osc="1" extra_n="0" /> 
+<osc_extra_sc1_osc2 scene="1" osc="2" extra_n="0" /> 
+</extraoscdata><stepsequences /> 
+<msegs /> 
+<formulae /> 
+<customcontroller><entry i="0" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="1" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="2" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="3" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="4" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="5" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="6" bipolar="0" v="0.00000000000000" label="-" /> 
+<entry i="7" bipolar="0" v="0.00000000000000" label="-" /> 
+</customcontroller><lfobanklabels /> 
+<modwheel s0="0.000000" s1="0.000000" /> 
+<compatability><correctlyTunedCombFilter v="1" /> 
+</compatability><dawExtraState populated="0" /> 
+</patch>
+

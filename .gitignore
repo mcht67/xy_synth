@@ -1,0 +1,11 @@
+# ignore all directories with these names
+raw_data/
+saved TF_datasets/
+autoencoder/
+encoder/
+saved_fx_files/
+
+# ignore all json files
+*.json
+
+gi
