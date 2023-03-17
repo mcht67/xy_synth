@@ -35,10 +35,11 @@ autoencoder.summary()
 AUTOTUNE = tf.data.experimental.AUTOTUNE
 
 # set number of predictions
-preset_num = 10
+preset_num = 20
 
 # get random index
 index = random.randrange(len(dataset) - preset_num)
+#index = 790
 
 # extract presets from index upwards
 test_data = dataset.skip(index)

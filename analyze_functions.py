@@ -176,16 +176,20 @@ def get_param_index(param, param_labels):
 def get_dict_of_value_types(param_labels, Presets):
     types = {}
     for preset in Presets:
+        # for every preset iterate over param_labels
         for param_label in param_labels:
+            # check if param label is in the param_set of the preset
             if param_label in preset['param_set']:
                 param = preset['param_set'][param_label]
+                #  check if the param_label is already in types
                 if param_label in types:
                     # check if value type changes over Presets
                     if types[param_label]!= param["value_type"]:
-                        #print(param)
-                        #print("Value Type seems to change over different Presets!")
+                        print(param)
+                        print(f"Value Type seems to change over different Presets! value_type before: {types[param_label]}")
                         # if type changes over Presets -> set value type to float
                         types[param_label] = int(2)
                 else:
                     types[param_label] = param["value_type"]
     return types
+

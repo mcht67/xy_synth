@@ -68,6 +68,13 @@ with open("value_types.json", "r") as file:
 with open("min_max_dict.json", "r") as file:
     min_max_dict = json.load(file)
 
+with open("osc_param_value_types.json","r") as file:
+    osc_param_value_types = json.load(file)
+
+# osc_param_value_types[f'osc{i}'][osc_type][param_label]!= param['value_type']
+    
+# with open("osc_param_labels.json","w") as file:
+#     osc_param_labels = json.load(file)
 
 # CONFIG
 
@@ -83,7 +90,7 @@ def main():
     # get value_type
     # reverse normalization
 
-    pred_param_sets = get_pred_param_sets(Predicts, new_param_labels, threshold, value_types, min_max_dict)
+    pred_param_sets = get_pred_param_sets(Predicts, new_param_labels, threshold, value_types, min_max_dict, osc_param_value_types)
     
     # order every pred_param_set like in orig_preset and add missing params and get rid of incorrect predicted params
     ord_pred_param_sets = {}
@@ -165,7 +172,7 @@ def main():
     ChunkPresets2fxp(orig_chunk_presets_and_ids, output_dir)
     
     # ANALYZE PREDICTIONS
-    apred.get_num_correct_params(orig_Presets, ord_pred_param_sets)
+    #apred.get_num_correct_params(orig_Presets, ord_pred_param_sets)
     
 # DEFINITIONS
 
@@ -190,7 +197,7 @@ Preset = namedtuple('Preset', PRESET_BASE_FIELDS + ('params',))
 
 # FUNCTIONS
 
-def get_pred_param_sets(Predicts, new_param_labels, threshold, value_types, min_max_dict):
+def get_pred_param_sets(Predicts, new_param_labels, threshold, value_types, min_max_dict, osc_param_value_types):
     predict_param_sets = {}
     for predict in Predicts:
         preset_id = predict['preset_id']
@@ -202,18 +209,72 @@ def get_pred_param_sets(Predicts, new_param_labels, threshold, value_types, min_
             param_label = new_param_labels[i]
             value_predict = predict_param[0]
             on_off_predict = predict_param[1]
-
+        
+                    
             # check if param is on or off
             if on_off_predict > threshold:
                 # reverse normalization
                 value = rev_normalize(value_predict, param_label, min_max_dict)
                 # get value type
                 value_type = value_types[param_label]
+                # # if value type is int round to int
+                # if value_type == 0:
+                #     value = round(value)
                 # create param dict
                 param_predict = {"param_label": param_label, 
                                 "value_type": value_type, 
                                 "value": value}
                 predict_param_set[param_label] = param_predict
+                
+                # for i in range (10):    
+                #     if param_label.startswith(f'a_osc{i}_type'):
+                #         print(f'param a_osc{i}_type: {param_predict}')
+           
+                
+        # replace value_types of osc_params with value_types from osc_param_value_types 
+        # and round to int if value_type is int
+        
+        for param_label in predict_param_set:
+            
+            # check if value_type is osc{i}_param
+            for i in range (1,3):
+                if param_label in osc_param_value_types[f'osc{i}']['1']:
+                    
+                    # get osc_type:
+                    osc_type = predict_param_set[f'a_osc{i}_type']['value']
+                    # round to int
+                    osc_type = round(osc_type)
+                    if osc_type < 1:
+                        osc_type = 1
+                    elif osc_type > 11:
+                        osc_type = 11
+                    
+                    # set value type for param_label
+                    # osc_param_value_types[f'osc{i}'][osc_type][param_label]!= param['value_type']
+                    predict_param_set[param_label]['value_type'] = osc_param_value_types[f'osc{i}'][f'{osc_type}']
+                    
+                    
+                    # if value_type == 0 round value to int
+                    if predict_param_set[param_label]['value_type'] == 0:
+                        
+                        # get value:
+                        value = predict_param_set[param_label]['value']
+                        # round value to int
+                        predict_param_set[param_label]['value'] = round(value)
+                    
+            
+            # if not osc_param --> round value to int if value_type == 0
+            else:
+                # get value type
+                value_type = predict_param_set[param_label]['value_type']
+                
+                # if value type is int round to int
+                if value_type == 0:
+                    # get value
+                    value = predict_param_set[param_label]['value']
+                    # round value to int
+                    predict_param_set[param_label]['value'] = round(value)
+                    
         predict_param_sets[preset_id] = predict_param_set
     return predict_param_sets
 
@@ -239,17 +300,17 @@ def get_pred_param_sets(Predicts, new_param_labels, threshold, value_types, min_
 #             predict_param_set.append(param_predict)
 #     return predict_param_set
 
-def get_value_type(param_label, Presets):
-    for i, preset in enumerate(Presets):
-        value_type = None
-        for j, param in enumerate(preset['param_set']):
-            if param_label==param['label']:
-                if value_type == None:
-                    value_type = param["value_type"]
-                elif value_type!=param["value_type"]:
-                    print(param)
-                    raise Exception("Value Type seems to change over different Presets!")
-    return value_type
+# def get_value_type(param_label, Presets):
+#     for i, preset in enumerate(Presets):
+#         value_type = None
+#         for j, param in enumerate(preset['param_set']):
+#             if param_label==param['label']:
+#                 if value_type == None:
+#                     value_type = param["value_type"]
+#                 elif value_type!=param["value_type"]:
+#                     print(param)
+#                     raise Exception("Value Type seems to change over different Presets!")
+#     return value_type
 
 def rev_normalize(value_predict, param_label, min_max_dict):
     min_val = min_max_dict[param_label][0]

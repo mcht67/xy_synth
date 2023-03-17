@@ -19,7 +19,7 @@ dataset = tf.data.Dataset.load(path)
 batch_size = 50
 dense_layers = [5000]
 latent_dim = 100
-epochs = 20
+epochs = 10
 learning_rate= 0.001
 
 # PREPARE DATASET
@@ -49,7 +49,6 @@ eval_data = dataset.skip(index80).batch(batch_size).prefetch(AUTOTUNE)
 # get input shape
 input_shape = dataset.element_spec[0].shape
 print(f'Input Shape: {input_shape}')
-
 
 # TRAIN VANILLA AUTOENCODER
 # get model
@@ -115,9 +114,10 @@ def dataset2list(dataset):
 preset_ids_ds = test_data.map(lambda x: x['preset_id'])
 preset_ids = dataset2list(preset_ids_ds)
 
+
 # # only use value_sets for prediction
 value_sets_ds = test_data.map(lambda x: x['value_set'])
-value_sets = dataset2list(value_sets_ds)
+#value_sets = dataset2list(value_sets_ds)
 
 # evaluate autoencoder
 loss, acc = autoencoder.evaluate(value_sets_ds, verbose=2)
@@ -125,8 +125,9 @@ print('Restored model, accuracy: {:5.2f}%'.format(100 * acc))
 
 
 # get prediction
-prediction = autoencoder.predict(value_sets)
+prediction = autoencoder.predict(value_sets_ds)
 pred_list = [x.tolist() for x in prediction]
+#print(pred_list)
 
 # # SAVE PREDICTS AS LIST OF DICTS SIMILAR TO PRESETS
 Predicts = []
