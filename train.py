@@ -9,6 +9,10 @@ import os
 import tensorflow as tf
 import models as mod
 
+def dataset2list(dataset):
+    data_list = list(dataset.as_numpy_iterator())
+    return [x[0].tolist() for x in data_list]
+
 # LOAD TF DATASET
 
 dir_path = os.path.dirname(os.path.realpath(__file__))
@@ -18,7 +22,7 @@ dataset = tf.data.Dataset.load(path)
 # CONFIG
 batch_size = 50
 dense_layers = [5000]
-latent_dim = 100
+latent_dim = 10
 epochs = 10
 learning_rate= 0.001
 
@@ -51,12 +55,14 @@ input_shape = dataset.element_spec[0].shape
 print(f'Input Shape: {input_shape}')
 
 # TRAIN VANILLA AUTOENCODER
+
 # get model
 autoencoder, encoder, _ = mod.get_autoencoder_dense(input_shape, dense_layers, latent_dim)
 
+# or
+
 # # load pre-trained model
 # autoencoder = tf.keras.models.load_model('autoencoder')
-
 # # evaluate autoencoder
 # loss, acc = autoencoder.evaluate(eval_data, verbose=2)
 # print('Restored model, accuracy: {:5.2f}%'.format(100 * acc))
@@ -100,34 +106,20 @@ test_data = dataset.skip(index)
 test_data = test_data.take(preset_num)
 test_data = test_data.batch(1).prefetch(AUTOTUNE)
 
-# # extract preset labels from new_preset_labels
-# pred_preset_labels = new_preset_labels[index : index + preset_num]
-
-# # extract preset ids from new_preset_ids
-# pred_preset_ids = new_preset_ids[index : index + preset_num]
-
-def dataset2list(dataset):
-    data_list = list(dataset.as_numpy_iterator())
-    return [x[0].tolist() for x in data_list]
-
 # get preset_ids
 preset_ids_ds = test_data.map(lambda x: x['preset_id'])
 preset_ids = dataset2list(preset_ids_ds)
 
-
 # # only use value_sets for prediction
 value_sets_ds = test_data.map(lambda x: x['value_set'])
-#value_sets = dataset2list(value_sets_ds)
 
 # evaluate autoencoder
 loss, acc = autoencoder.evaluate(value_sets_ds, verbose=2)
 print('Restored model, accuracy: {:5.2f}%'.format(100 * acc))
 
-
 # get prediction
 prediction = autoencoder.predict(value_sets_ds)
 pred_list = [x.tolist() for x in prediction]
-#print(pred_list)
 
 # # SAVE PREDICTS AS LIST OF DICTS SIMILAR TO PRESETS
 Predicts = []

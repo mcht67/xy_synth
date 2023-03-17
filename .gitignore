@@ -3,7 +3,12 @@ raw_data/
 saved TF_datasets/
 autoencoder/
 encoder/
-saved_fx_files/
+saved_fxp_files/
 
 # ignore all json files
 *.json
+
+# ignore specific files
+get_osc_param_value_types.py
+analyze_functions.py
+get_list_of_keys.py

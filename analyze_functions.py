@@ -185,11 +185,24 @@ def get_dict_of_value_types(param_labels, Presets):
                 if param_label in types:
                     # check if value type changes over Presets
                     if types[param_label]!= param["value_type"]:
-                        print(param)
-                        print(f"Value Type seems to change over different Presets! value_type before: {types[param_label]}")
+                        #print(param)
+                        #print(f"Value Type seems to change over different Presets! value_type before: {types[param_label]}")
+                        
                         # if type changes over Presets -> set value type to float
                         types[param_label] = int(2)
                 else:
                     types[param_label] = param["value_type"]
     return types
 
+def get_min_max_values(dataset):
+    max_vals = dataset[0].copy()
+    min_vals = dataset[0].copy()
+    for value_set in dataset:
+        for i, value in enumerate(value_set):
+            if max_vals[i]== None:
+                max_vals[i] = value
+            if min_vals[i] == None:
+                min_vals[i] = value
+            elif not value == None and max_vals[i] < value:
+                max_vals[i] = value
+    return min_vals, max_vals

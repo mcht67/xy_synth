@@ -39,6 +39,8 @@ preset_num = 20
 
 # get random index
 index = random.randrange(len(dataset) - preset_num)
+
+# or specific index
 #index = 790
 
 # extract presets from index upwards

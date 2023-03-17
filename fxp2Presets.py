@@ -13,7 +13,8 @@ From the ChunkPresets a list of Dictionarys called Presets is created.
 DESCRIPTION OF PRESET AND PARAMETER
 
 A Preset contains (almost) all the information of the corresponding fxp file.
-The Parameters and their values of each Preset are saved in a dict with the param_label as the key.The dict of the parameters is reachable via the key "param_set". 
+The Parameters and their values of each Preset are saved in a dict with the param_label as the key.
+The dict of the parameters is reachable via the key "param_set". 
 
 Preset = {
     "preset_label": preset.label,
@@ -27,7 +28,7 @@ Preset = {
     }
 
 
-Parameters are saved as Dictionary. Each Parameter-Item gets it's own key like: "value", "value_type", "modrouting
+Parameters are saved as Dictionary. Each Parameter-Item gets it's own key like: "value", "value_type", "modrouting", etc.
 
 param = {
   "param_label": param_label,

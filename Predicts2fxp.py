@@ -4,14 +4,15 @@ Created on Mon Feb 13 22:19:32 2023
 
 @author: Malte Cohrt
 
-Predicts2Presets.py
+Predicts2fxp.py
 
 This script transforms the predicted parameter values into .fxp-files.
 
 DESCRIPTION OF PRESET AND PARAMETER
     
 A Preset contains (almost) all the information of the corresponding fxp file.
-The Parameters and their values of each Preset are saved in a list, reachable via the key "ParameterSet". 
+The Parameters and their values of each Preset are saved in a dict with the param_label as the key.
+The dict of the parameters is reachable via the key "param_set". 
 
 Preset = {
     "preset_label": preset.label,
@@ -25,7 +26,7 @@ Preset = {
     }
 
 
-Parameters are saved as Dictionary. Each Parameter-Item gets it's own key like: "value", "value_type", "modrouting
+Parameters are saved as Dictionary. Each Parameter-Item gets it's own key like: "value", "value_type", "modrouting", etc.
 
 param = {
   "param_label": param_label,
@@ -70,11 +71,8 @@ with open("min_max_dict.json", "r") as file:
 
 with open("osc_param_value_types.json","r") as file:
     osc_param_value_types = json.load(file)
-
-# osc_param_value_types[f'osc{i}'][osc_type][param_label]!= param['value_type']
+    # osc_param_value_types[f'osc{i}'][osc_type][param_label] -> param['value_type']
     
-# with open("osc_param_labels.json","w") as file:
-#     osc_param_labels = json.load(file)
 
 # CONFIG
 
@@ -92,31 +90,33 @@ def main():
 
     pred_param_sets = get_pred_param_sets(Predicts, new_param_labels, threshold, value_types, min_max_dict, osc_param_value_types)
     
+    
+    # ONLY FOR COMPARISON:
     # order every pred_param_set like in orig_preset and add missing params and get rid of incorrect predicted params
-    ord_pred_param_sets = {}
-    for preset_id in pred_param_sets:
-        ord_pred_param_set = {}
-        preset = Presets[int(preset_id)]
-        param_set = preset['param_set']
-        # iterate over param_set
-        for param_label in param_set:
-            # if param_label is in prediction add predicted value to ord_pred_param_set
-            if param_label in pred_param_sets[preset_id]:
-                ord_pred_param_set[param_label] = pred_param_sets[preset_id][param_label]
-            # else:
-            #     ord_pred_param_set[param_label] = param_set[param_label]
-        # iterate over pred_param_set
-        for param_label in pred_param_sets[preset_id]:
-            # add every param_label to ord_pred_param-set that is not in orig_param_set (incorrect params)
-            if param_label not in param_set:
-                ord_pred_param_set[param_label] = pred_param_sets[preset_id][param_label]
-        ord_pred_param_sets[preset_id] = ord_pred_param_set
+    # ord_pred_param_sets = {}
+    # for preset_id in pred_param_sets:
+    #     ord_pred_param_set = {}
+    #     preset = Presets[int(preset_id)]
+    #     param_set = preset['param_set']
+    #     # iterate over param_set
+    #     for param_label in param_set:
+    #         # if param_label is in prediction add predicted value to ord_pred_param_set
+    #         if param_label in pred_param_sets[preset_id]:
+    #             ord_pred_param_set[param_label] = pred_param_sets[preset_id][param_label]
+    #         # else:
+    #         #     ord_pred_param_set[param_label] = param_set[param_label]
+    #     # iterate over pred_param_set
+    #     for param_label in pred_param_sets[preset_id]:
+    #         # add every param_label to ord_pred_param-set that is not in orig_param_set (incorrect params)
+    #         if param_label not in param_set:
+    #             ord_pred_param_set[param_label] = pred_param_sets[preset_id][param_label]
+    #     ord_pred_param_sets[preset_id] = ord_pred_param_set
             
         
     # CREATE PRESETS
     
     # Get list of predicted Presets from predicted parameter sets
-    pred_Presets = get_pred_Presets(ord_pred_param_sets, Presets, threshold)
+    pred_Presets = get_pred_Presets(pred_param_sets, Presets, threshold)
 
     # PRESETS TO FXP
     
@@ -172,7 +172,7 @@ def main():
     ChunkPresets2fxp(orig_chunk_presets_and_ids, output_dir)
     
     # ANALYZE PREDICTIONS
-    #apred.get_num_correct_params(orig_Presets, ord_pred_param_sets)
+    apred.get_num_correct_params(orig_Presets, pred_param_sets)
     
 # DEFINITIONS
 
@@ -217,23 +217,14 @@ def get_pred_param_sets(Predicts, new_param_labels, threshold, value_types, min_
                 value = rev_normalize(value_predict, param_label, min_max_dict)
                 # get value type
                 value_type = value_types[param_label]
-                # # if value type is int round to int
-                # if value_type == 0:
-                #     value = round(value)
-                # create param dict
+      
                 param_predict = {"param_label": param_label, 
                                 "value_type": value_type, 
                                 "value": value}
                 predict_param_set[param_label] = param_predict
                 
-                # for i in range (10):    
-                #     if param_label.startswith(f'a_osc{i}_type'):
-                #         print(f'param a_osc{i}_type: {param_predict}')
-           
-                
         # replace value_types of osc_params with value_types from osc_param_value_types 
-        # and round to int if value_type is int
-        
+        # and round to int if value_type is int    
         for param_label in predict_param_set:
             
             # check if value_type is osc{i}_param
@@ -244,6 +235,8 @@ def get_pred_param_sets(Predicts, new_param_labels, threshold, value_types, min_
                     osc_type = predict_param_set[f'a_osc{i}_type']['value']
                     # round to int
                     osc_type = round(osc_type)
+                    
+                    # set min and max of osc_type
                     if osc_type < 1:
                         osc_type = 1
                     elif osc_type > 11:
@@ -260,57 +253,22 @@ def get_pred_param_sets(Predicts, new_param_labels, threshold, value_types, min_
                         # get value:
                         value = predict_param_set[param_label]['value']
                         # round value to int
-                        predict_param_set[param_label]['value'] = round(value)
-                    
-            
-            # if not osc_param --> round value to int if value_type == 0
-            else:
-                # get value type
-                value_type = predict_param_set[param_label]['value_type']
+                        predict_param_set[param_label]['value'] = round(value)     
                 
-                # if value type is int round to int
-                if value_type == 0:
-                    # get value
-                    value = predict_param_set[param_label]['value']
-                    # round value to int
-                    predict_param_set[param_label]['value'] = round(value)
+                # if not osc_param --> round value to int if value_type == 0
+                else:
+                    # get value type
+                    value_type = predict_param_set[param_label]['value_type']
+                    
+                    # if value type is int round to int
+                    if value_type == 0:
+                        # get value
+                        value = predict_param_set[param_label]['value']
+                        # round value to int
+                        predict_param_set[param_label]['value'] = round(value)
                     
         predict_param_sets[preset_id] = predict_param_set
     return predict_param_sets
-
-# def get_predict_param_set(predict, new_param_labels, threshold, min_max_dict, Presets):
-#     predict_param_set = []
-#     # iterate over predicted param_set
-#     for i, predict_param in enumerate(predict):
-#         # get label and value-/on_off-prediction
-#         label = new_param_labels[i]
-#         value_predict = predict_param[0]
-#         on_off_predict = predict_param[1]
-        
-#         # check if param is on or off
-#         if on_off_predict > threshold:
-#             # reverse normalization
-#             value = rev_normalize(value_predict, label, min_max_dict)
-#             # get value type
-#             value_type = get_value_type(label, Presets)
-#             # create param dict
-#             param_predict = {"label": label, 
-#                             "value_type": value_type, 
-#                             "value": value}
-#             predict_param_set.append(param_predict)
-#     return predict_param_set
-
-# def get_value_type(param_label, Presets):
-#     for i, preset in enumerate(Presets):
-#         value_type = None
-#         for j, param in enumerate(preset['param_set']):
-#             if param_label==param['label']:
-#                 if value_type == None:
-#                     value_type = param["value_type"]
-#                 elif value_type!=param["value_type"]:
-#                     print(param)
-#                     raise Exception("Value Type seems to change over different Presets!")
-#     return value_type
 
 def rev_normalize(value_predict, param_label, min_max_dict):
     min_val = min_max_dict[param_label][0]
@@ -353,21 +311,6 @@ def get_chunk_params_text(param_set_predict):
         params_text += f'<{param["param_label"]} type="{param["value_type"]}" value="{param["value"]}" />'
     params_text += '</parameters>'
     return params_text    
-
-# def get_list_of_predict_param_sets(predict, new_param_labels, threshold, min_max_dict, Presets):
-#     list_of_predict_param_sets = []
-#     for params_predict in predict: # predict[param_set][???] [param] [value]
-#         list_of_remap_params = get_predict_param_set(params_predict[0], new_param_labels, threshold, min_max_dict, Presets)
-#         list_of_predict_param_sets.append(list_of_remap_params)
-#     return list_of_predict_param_sets
-
-# def get_params_text(preset):
-#     params_text = '<parameters>'
-#     for param in preset["param_set"]:
-#         params_text += f'<{param["param_label"]} type="{param["value_type"]}" value="{param["value"]}" />'
-#     params_text += '</parameters>'
-#     return params_text
-#     #print(params_text)
 
 def label2fn(label):
     """Replace characters in label unsuitable for filenames with underscore."""
@@ -413,11 +356,9 @@ def Presets2ChunkPresetsAndIDs(Presets_x):
 def ChunkPresets2fxp(chunk_presets_and_ids, output_dir):
 
     for preset_and_id in chunk_presets_and_ids:
+        
         preset = preset_and_id['preset']
-        #preset_id = preset_and_id['id']
-        #plugin_id = pack('>I', preset.plugin_id).decode('ascii')
-        #dstdir = join(output_dir, f'threshold {threshold}')
-        #subdir = join(output_dir, f'{preset_id}')
+        
         if not isdir(output_dir):
             os.makedirs(output_dir)
         fxp_fn = join(output_dir, label2fn(preset.label)) + '.fxp'
@@ -471,18 +412,5 @@ def ChunkPresets2fxp(chunk_presets_and_ids, output_dir):
             elif isinstance(preset, ChunkPreset):
                 fp.write(chunk_size)
                 fp.write(preset.chunk)
-                
-def get_min_max_values(dataset):
-    max_vals = dataset[0].copy()
-    min_vals = dataset[0].copy()
-    for value_set in dataset:
-        for i, value in enumerate(value_set):
-            if max_vals[i]== None:
-                max_vals[i] = value
-            if min_vals[i] == None:
-                min_vals[i] = value
-            elif not value == None and max_vals[i] < value:
-                max_vals[i] = value
-    return min_vals, max_vals
 
 main()
